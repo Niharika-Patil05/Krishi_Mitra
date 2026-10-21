@@ -34,7 +34,10 @@ SCORE_THRESHOLD = 0.75  # starting value; tuned in Milestone 6 using eval
 LANGUAGES = {"मराठी": "mr-IN", "हिंदी": "hi-IN", "English": "en-IN"}
 DEFAULT_LANGUAGE = "मराठी"
 
-# --- LLM / speech: model IDs are filled in after checking official docs ------
+# --- LLM (model IDs verified against docs.sarvam.ai / console.groq.com/docs) --
+SARVAM_LLM_MODEL = "sarvam-105b"          # V1 chat route; "sarvam-m" is deprecated
+GROQ_LLM_MODEL = "llama-3.3-70b-versatile"
+LLM_MAX_TOKENS = 1024                     # reasoning is off, so this is all answer
 LLM_TIMEOUT_S = 20
 LLM_TEMPERATURE = 0.2
 
