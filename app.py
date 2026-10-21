@@ -9,8 +9,8 @@ import time
 
 import streamlit as st
 
-from src import config, pipeline, speech
-from src.ui_text import CROP_KEYS, DEFAULT_CODE, EXAMPLES, TEXT
+from src import config, llm, pipeline, speech
+from src.ui_text import CROP_KEYS, DEFAULT_CODE, EXAMPLES, TEXT, source_name
 
 logging.basicConfig(level=logging.INFO)
 st.set_page_config(page_title="Krishi Mitra", page_icon="🌱", layout="centered", initial_sidebar_state="collapsed")
@@ -77,6 +77,39 @@ def answer_html(text: str) -> str:
     return re.sub(r"\[(\d+(?:\s*,\s*\d+)*)\]", lambda m: f'<span class="cite">{m.group(1)}</span>', body)
 
 
+def cited_sources(r: dict) -> list[tuple[int, dict]]:
+    """(number, source) for the sources the answer actually cites; top 3 if it cites none."""
+    nums = {int(n) for grp in re.findall(r"\[(\d+(?:\s*,\s*\d+)*)\]", r["answer"]) for n in re.split(r"\s*,\s*", grp)}
+    picked = [(n, r["sources"][n - 1]) for n in sorted(nums) if 1 <= n <= len(r["sources"])]
+    return picked or list(enumerate(r["sources"][:3], 1))
+
+
+_JUNK = re.compile(r"[¶§${}~^|@#\u0080-\u00ff\u2018\u2019]|[a-z][A-Z]")
+
+
+def snippet(s: dict, limit: int = 300) -> str:
+    """Short quote for display; drops tokens garbled by legacy-font PDFs (e.g. 'gmbmdJu¶')."""
+    text = " ".join(w for w in s["text"].split() if not _JUNK.search(w))
+    return text if len(text) <= limit else text[:limit].rsplit(" ", 1)[0] + "…"
+
+
+def localized_snippets(shown: list[tuple[int, dict]]) -> list[str]:
+    """Quoted passages in the UI language. One batched LLM call per new passage set, remembered per session."""
+    originals = [snippet(s) for _, s in shown]
+    if lang == "en-IN":
+        return originals
+    memo = st.session_state.setdefault("tr", {})
+    missing = [(s["id"], o) for (_, s), o in zip(shown, originals) if (s["id"], lang) not in memo]
+    if missing:
+        try:
+            with st.spinner(T["searching"]):
+                for (cid, _), tr in zip(missing, llm.translate_passages([o for _, o in missing], lang)):
+                    memo[(cid, lang)] = tr
+        except Exception as e:  # keep the English passage rather than failing the page
+            logging.warning("passage translation failed: %s", e)
+    return [memo.get((s["id"], lang), o) for (_, s), o in zip(shown, originals)]
+
+
 def show_result(r: dict) -> None:
     if "error" in r:
         st.error(r["error"])
@@ -90,13 +123,16 @@ def show_result(r: dict) -> None:
     note = T["cached"] if r.get("cached") else f"{r['total']:.1f} {T['sec']} · {r['provider']}"
     st.markdown(f'<p class="meta">{note}</p>', unsafe_allow_html=True)
     if r["sources"] and not r["not_found"]:
-        with st.expander(f"{T['sources']} ({len(r['sources'])})"):
-            for i, s in enumerate(r["sources"], 1):
+        shown = cited_sources(r)
+        snippets = localized_snippets(shown)
+        with st.expander(f"{T['sources']} ({len(shown)})"):
+            for (n, s), snip in zip(shown, snippets):
+                title, publisher = source_name(s, lang)
                 link = f' · <a href="{s["url"]}" target="_blank">PDF</a>' if s["url"].startswith("http") else ""
                 st.markdown(
-                    f'<div class="src"><span class="n">{i}</span><span class="t">{html.escape(s["title"])}</span>'
-                    f'<div class="p">{html.escape(s["publisher"])} · {T["page"]} {s["page"]}{link}</div>'
-                    f'<blockquote>{html.escape(s["text"][:280])}…</blockquote></div>', unsafe_allow_html=True)
+                    f'<div class="src"><span class="n">{n}</span><span class="t">{html.escape(title)}</span>'
+                    f'<div class="p">{html.escape(publisher)} · {T["page"]} {s["page"]}{link}</div>'
+                    f'<blockquote>{html.escape(snip)}</blockquote></div>', unsafe_allow_html=True)
 
 
 def rerun_with_new_settings() -> None:

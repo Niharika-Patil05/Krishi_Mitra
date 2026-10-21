@@ -1,5 +1,6 @@
 """LLM calls: Sarvam first, Groq as fallback. Also query rewrite and answer generation."""
 import logging
+import re
 
 from src import config, prompts
 
@@ -68,6 +69,20 @@ def rewrite_to_english(question: str) -> tuple[str, str]:
 def generate_answer(question: str, hits: list[dict], lang_code: str) -> tuple[str, str]:
     """Grounded answer in the requested language. Returns (answer, provider)."""
     return chat(prompts.answer_messages(question, hits, lang_code))
+
+
+def translate_passages(texts: list[str], lang_code: str) -> list[str]:
+    """Translate source passages into the UI language in ONE call. Raises if anything is missing."""
+    system = (f"You translate farm-advisory passages into {prompts.LANG_NAMES[lang_code]}. "
+              "Keep numbers, units, chemical, variety and place names, and doses exactly as written. "
+              "Output ONLY the translations, each starting with its number in brackets, like [1].")
+    user = "\n".join(f"[{i}] {t}" for i, t in enumerate(texts, 1))
+    reply, _ = chat([{"role": "system", "content": system}, {"role": "user", "content": user}])
+    found = {int(n): body.strip() for n, body in
+             re.findall(r"\[(\d+)\]\s*(.*?)(?=\n\s*\[\d+\]|\Z)", reply, flags=re.S)}
+    if set(found) != set(range(1, len(texts) + 1)):
+        raise RuntimeError("translation reply did not contain every passage")
+    return [found[i] for i in range(1, len(texts) + 1)]
 
 
 if __name__ == "__main__":

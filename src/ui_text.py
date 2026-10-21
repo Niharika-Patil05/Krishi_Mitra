@@ -97,3 +97,33 @@ EXAMPLES = {
 
 CROP_KEYS = ["all", "sugarcane", "grapes", "turmeric", "scheme"]
 DEFAULT_CODE = config.LANGUAGES[config.DEFAULT_LANGUAGE]
+
+
+# Document title + publisher per language, keyed by the PDF filename in sources.csv.
+SOURCE_NAMES = {
+    "GAPTableGrapes.pdf": {
+        "mr-IN": ("टेबल द्राक्षांच्या दर्जेदार उत्पादनासाठी उत्तम कृषी पद्धती", "ICAR-राष्ट्रीय द्राक्ष संशोधन केंद्र, पुणे"),
+        "hi-IN": ("टेबल अंगूर के गुणवत्तापूर्ण उत्पादन के लिए उत्तम कृषि पद्धतियाँ", "ICAR-राष्ट्रीय अंगूर अनुसंधान केंद्र, पुणे"),
+    },
+    "ipm_pop_turmeric.pdf": {
+        "mr-IN": ("हळदीसाठी एकात्मिक कीड व्यवस्थापन (IPM) पद्धती", "वनस्पती संरक्षण, संगरोध व संचयन संचालनालय (भारत सरकार)"),
+        "hi-IN": ("हल्दी के लिए एकीकृत कीट प्रबंधन (IPM) पद्धतियाँ", "पौध संरक्षण, संगरोध एवं संग्रह निदेशालय (भारत सरकार)"),
+    },
+    "mpkv_spices_varieties.pdf": {
+        "mr-IN": ("मसाला पिकांच्या सुधारित जाती", "महात्मा फुले कृषी विद्यापीठ, राहुरी"),
+        "hi-IN": ("मसाला फसलों की उन्नत किस्में", "महात्मा फुले कृषि विद्यापीठ, राहुरी"),
+    },
+    "pmkisan_guidelines.pdf": {
+        "mr-IN": ("पीएम-किसान योजना कार्यान्वयन मार्गदर्शक सूचना", "कृषी व शेतकरी कल्याण मंत्रालय"),
+        "hi-IN": ("पीएम-किसान योजना परिचालन दिशानिर्देश", "कृषि एवं किसान कल्याण मंत्रालय"),
+    },
+    "aicrp_sugarcane_kolhapur.pdf": {
+        "mr-IN": ("अखिल भारतीय समन्वित ऊस संशोधन प्रकल्प, प्रादेशिक ऊस व गूळ संशोधन केंद्र, कोल्हापूर", "महात्मा फुले कृषी विद्यापीठ, राहुरी"),
+        "hi-IN": ("अखिल भारतीय समन्वित गन्ना अनुसंधान परियोजना, क्षेत्रीय गन्ना एवं गुड़ अनुसंधान केंद्र, कोल्हापुर", "महात्मा फुले कृषि विद्यापीठ, राहुरी"),
+    },
+}
+
+
+def source_name(src: dict, lang_code: str) -> tuple[str, str]:
+    """(title, publisher) of a source chunk in the UI language; English falls back to sources.csv."""
+    return SOURCE_NAMES.get(src["file"], {}).get(lang_code, (src["title"], src["publisher"]))
