@@ -42,7 +42,7 @@ pip install -r requirements.txt
 cp .env.example .env                      # add SARVAM_API_KEY and GROQ_API_KEY
 # put the PDFs listed in data/sources.csv into data/raw/ (filenames must match)
 python -m src.ingest                      # builds data/index/ (commit it)
-streamlit run app.py
+streamlit run app.py --server.fileWatcherType none   # "none" hides harmless torchvision log spam locally
 ```
 Useful: `python -m src.llm "..."`, `python -m src.speech` (TTS→STT round trip),
 `python -m eval.run_eval [--no-llm]`, `python -m eval.run_eval --cache`.
