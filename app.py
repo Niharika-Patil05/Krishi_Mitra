@@ -97,17 +97,27 @@ def show_result(r: dict) -> None:
 
 
 # ---------------- Main ----------------
-st.markdown(
-    '<div class="masthead"><p class="kicker">ICAR · MPKV · PM-KISAN स्रोतांवर आधारित</p>'
-    "<h1>कृषी मित्र</h1>"
-    '<p class="sub">ऊस, द्राक्ष आणि हळद यांबद्दल प्रश्न विचारा. उत्तर मराठीत, पान क्रमांकासह स्रोत दाखवून.</p>'
-    '<hr class="rule"></div>', unsafe_allow_html=True)
-
-c1, c2 = st.columns(2)
-with c1:
-    lang_label = st.selectbox("उत्तराची भाषा / Answer language", list(config.LANGUAGES))
-with c2:
-    crop_label = st.selectbox("पीक / Crop", list(CROPS))
+head, gear = st.columns([7, 1], vertical_alignment="top")
+with head:
+    st.markdown(
+        '<div class="masthead"><p class="kicker">ICAR · MPKV · PM-KISAN स्रोतांवर आधारित</p>'
+        "<h1>कृषी मित्र</h1>"
+        '<p class="sub">ऊस, द्राक्ष आणि हळद यांबद्दल प्रश्न विचारा. उत्तर मराठीत, पान क्रमांकासह स्रोत दाखवून.</p>'
+        '<hr class="rule"></div>', unsafe_allow_html=True)
+with gear:
+    # Widgets inside a popover still run every time, so lang/crop are always available below.
+    with st.popover("", icon=":material/settings:", help="सेटिंग्ज / Settings"):
+        st.markdown("**सेटिंग्ज / Settings**")
+        lang_label = st.selectbox("उत्तराची भाषा / Answer language", list(config.LANGUAGES))
+        crop_label = st.selectbox("पीक / Crop", list(CROPS))
+        st.markdown(
+            "---\n**माहिती आणि मर्यादा**\n\n"
+            "- उत्तरे फक्त ICAR, कृषी विद्यापीठे आणि सरकारी दस्तऐवजांतून येतात.\n"
+            "- माहिती स्रोतांत नसेल तर अॅप तसे सांगते; अंदाज लावत नाही.\n"
+            "- तुमचा आवाज लिप्यंतरणासाठी Sarvam AI कडे जातो; हे अॅप काहीही साठवत नाही.\n"
+            "- बोली भाषा किंवा गोंगाटामुळे आवाज ओळखण्यात चुका होऊ शकतात.\n"
+            "- कृषी अधिकारी किंवा KVK चा सल्ला याला पर्याय नाही.\n\n"
+            f"किसान कॉल सेंटर: **{config.KCC_NUMBER}**")
 lang, crop = config.LANGUAGES[lang_label], CROPS[crop_label]
 
 st.session_state.setdefault("q", "")
@@ -138,12 +148,3 @@ if clicked or st.session_state.pop("go", False):
 
 if "result" in st.session_state:
     show_result(st.session_state.result)
-
-with st.expander("माहिती आणि मर्यादा / About & limitations"):
-    st.markdown(
-        "- उत्तरे फक्त ICAR, कृषी विद्यापीठे आणि सरकारी दस्तऐवजांतून येतात.\n"
-        "- माहिती स्रोतांत नसेल तर अॅप तसे सांगते; अंदाज लावत नाही.\n"
-        "- तुमचा आवाज लिप्यंतरणासाठी Sarvam AI कडे जातो; हे अॅप काहीही साठवत नाही.\n"
-        "- बोली भाषा किंवा गोंगाटामुळे आवाज ओळखण्यात चुका होऊ शकतात.\n"
-        "- कृषी अधिकारी किंवा KVK चा सल्ला याला पर्याय नाही.\n\n"
-        f"किसान कॉल सेंटर: **{config.KCC_NUMBER}**")

@@ -47,3 +47,11 @@ textarea:focus { border-color:var(--green) !important; box-shadow:0 0 0 1px var(
 [data-testid="stExpander"] { border:1px solid var(--line); background:#fffdf8; border-radius:6px; }
 [data-testid="stSidebar"], [data-testid="stSidebarCollapsedControl"] { display:none !important; }
 [data-testid="stSelectbox"] label p { font-size:.85rem; color:var(--muted); }
+
+/* settings gear: stays top-right, also on phones (no column stacking) */
+[data-testid="stHorizontalBlock"]:has([data-testid="stPopover"]) { flex-wrap:nowrap !important; gap:.5rem; align-items:flex-start; }
+[data-testid="stHorizontalBlock"]:has([data-testid="stPopover"]) > [data-testid="stColumn"]:first-child { flex:1 1 auto !important; min-width:0 !important; width:auto !important; }
+[data-testid="stHorizontalBlock"]:has([data-testid="stPopover"]) > [data-testid="stColumn"]:last-child { flex:0 0 auto !important; min-width:0 !important; width:auto !important; }
+[data-testid="stPopoverButton"] { background:#fffdf8; border:1px solid var(--line); border-radius:999px; min-height:2.4rem; padding:0 .7rem; color:var(--green); margin-left:auto; }
+[data-testid="stPopoverButton"]:hover { border-color:var(--green); background:var(--leaf); }
+div[data-baseweb="popover"] > div { background:#fffdf8; border:1px solid var(--line); border-radius:8px; min-width:min(340px, 92vw); }
