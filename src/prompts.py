@@ -63,3 +63,21 @@ def answer_messages(question: str, hits: list[dict], lang_code: str) -> list[dic
 def strip_citations(text: str) -> str:
     """Remove [1], [2] markers so the text-to-speech does not read them aloud."""
     return re.sub(r"\s*\[\d+(?:\s*,\s*\d+)*\]", "", text).strip()
+
+
+# A dose looks like "2 g/L", "१० ग्रॅम/लिटर", "0.5 ml/L", "1 kg/ha", "30 ppm", "1.5%" (Devanagari digits too).
+_DOSE = re.compile(
+    r"[\d०-९]\s*(?:ग्रॅम|ग्राम|मिली|किलो|लिटर|g|kg|ml|mL|l|L)\s*/\s*\S"          # 2 g/L, १० ग्रॅम/लिटर
+    r"|[\d०-९]\s*ppm"                                                          # 30 ppm
+    r"|(?:spray|फवार)\D{0,40}[\d०-९.]+\s*(?:%|टक्के)"                              # spray ... 0.5%
+    r"|[\d०-९.]+\s*(?:%|टक्के)\s*\D{0,20}(?:spray|फवार|mixture|मिश्रण)", re.I)       # 1% Bordeaux mixture
+
+
+def fix_dose_note(answer: str, lang_code: str) -> str:
+    """Add the safety line only when the answer quotes a chemical dose; remove it otherwise.
+
+    We enforce this in code because the LLM does not follow the 'only if a dose' rule reliably.
+    """
+    note = DOSE_NOTE[lang_code]
+    body = "\n".join(l for l in answer.splitlines() if note not in l).rstrip()
+    return f"{body}\n\n{note}" if _DOSE.search(body) else body

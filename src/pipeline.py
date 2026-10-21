@@ -38,6 +38,7 @@ def ask(question: str, lang_code: str, retriever: Retriever, crop: str | None = 
     # 4. Grounded answer
     t0 = clock()
     answer, provider = llm.generate_answer(question, hits, lang_code)
+    answer = prompts.fix_dose_note(answer, lang_code)
     t["answer"] = clock() - t0
 
     # 5. Speech is a bonus: if it fails the text answer must still show

@@ -1,5 +1,7 @@
 """Krishi Mitra - Streamlit UI. All logic lives in src/; this file only draws and wires."""
+import html
 import logging
+import re
 import time
 
 import streamlit as st
@@ -8,10 +10,12 @@ from src import config, pipeline, speech
 from src.config import EXAMPLES
 
 logging.basicConfig(level=logging.INFO)
-st.set_page_config(page_title="कृषी मित्र — Krishi Mitra", page_icon="🌾")
+st.set_page_config(page_title="कृषी मित्र — Krishi Mitra", page_icon="🌱", layout="centered")
+st.markdown(f"<style>{(config.ROOT / 'assets' / 'style.css').read_text(encoding='utf-8')}</style>",
+            unsafe_allow_html=True)
 
-CROPS = {"सर्व / All": None, "ऊस Sugarcane": "sugarcane", "द्राक्ष Grapes": "grapes",
-         "हळद Turmeric": "turmeric", "योजना Schemes": "scheme"}
+CROPS = {"सर्व पिके / All": None, "ऊस / Sugarcane": "sugarcane", "द्राक्ष / Grapes": "grapes",
+         "हळद / Turmeric": "turmeric", "सरकारी योजना / Schemes": "scheme"}
 
 
 @st.cache_resource(show_spinner="माहिती भांडार लोड होत आहे...")
@@ -49,63 +53,93 @@ def run_query(question: str, audio_bytes: bytes | None, lang: str, crop: str | N
     st.session_state.result = result
 
 
+def answer_html(text: str) -> str:
+    """Escape the LLM text, turn '* ' lines into a list and [n] markers into small citation chips."""
+    lines, items, out = html.escape(text).splitlines(), [], []
+
+    def flush():
+        if items:
+            out.append("<ul>" + "".join(f"<li>{i}</li>" for i in items) + "</ul>")
+            items.clear()
+
+    for ln in lines:
+        m = re.match(r"^\s*[*\-•]\s+(.*)", ln)
+        if m:
+            items.append(m.group(1))
+        elif ln.strip():
+            flush()
+            out.append(f"<p>{ln.strip()}</p>")
+    flush()
+    body = "".join(out)
+    return re.sub(r"\[(\d+(?:\s*,\s*\d+)*)\]", lambda m: f'<span class="cite">{m.group(1)}</span>', body)
+
+
 def show_result(r: dict) -> None:
     if "error" in r:
         st.error(r["error"])
         return
     if r.get("transcript"):
-        st.info(f"🎤 {r['transcript']}")
-    if r["not_found"]:
-        st.warning(r["answer"])
-    else:
-        st.markdown(r["answer"])
-    if r.get("cached"):
-        st.caption("🗂️ cached answer (offline demo mode)")
+        st.markdown(f'<p class="heard">तुम्ही म्हणालात: <b>{html.escape(r["transcript"])}</b></p>', unsafe_allow_html=True)
+    cls = "answer notfound" if r["not_found"] else "answer"
+    st.markdown(f'<div class="{cls}">{answer_html(r["answer"])}</div>', unsafe_allow_html=True)
     if r.get("audio"):
         st.audio(r["audio"], format="audio/wav")
-    parts = [f"⏱ {r['total']:.1f}s", f"LLM: {r['provider']}"]
-    st.caption(" · ".join(parts))
-    if r["sources"]:
-        with st.expander("स्रोत / Sources"):
+    note = "जतन केलेले उत्तर (ऑफलाइन)" if r.get("cached") else f"{r['total']:.1f} से. · {r['provider']}"
+    st.markdown(f'<p class="meta">{note}</p>', unsafe_allow_html=True)
+    if r["sources"] and not r["not_found"]:
+        with st.expander(f"स्रोत / Sources ({len(r['sources'])})"):
             for i, s in enumerate(r["sources"], 1):
-                st.markdown(f"**[{i}] {s['title']}** — {s['publisher']}, page {s['page']}"
-                            + (f" · [link]({s['url']})" if s["url"].startswith("http") else ""))
-                st.caption(s["text"][:300] + "…")
+                link = f' · <a href="{s["url"]}" target="_blank">PDF</a>' if s["url"].startswith("http") else ""
+                st.markdown(
+                    f'<div class="src"><span class="n">{i}</span><span class="t">{html.escape(s["title"])}</span>'
+                    f'<div class="p">{html.escape(s["publisher"])} · पान {s["page"]}{link}</div>'
+                    f'<blockquote>{html.escape(s["text"][:280])}…</blockquote></div>', unsafe_allow_html=True)
 
 
 # ---------------- Sidebar ----------------
 with st.sidebar:
+    st.markdown("**सेटिंग्ज / Settings**")
     lang_label = st.selectbox("उत्तराची भाषा / Answer language", list(config.LANGUAGES))
     crop_label = st.selectbox("पीक / Crop", list(CROPS))
-    with st.expander("About & Limitations"):
+    with st.expander("माहिती आणि मर्यादा / About"):
         st.markdown(
-            "- Answers come only from ICAR / government / university documents.\n"
-            "- If the answer is not in them, the app says so — it does not guess.\n"
-            "- Your voice is sent to Sarvam AI for transcription; nothing is stored by this app.\n"
-            "- Speech recognition may struggle with strong dialects or noise.\n"
-            "- Not a replacement for your agriculture officer or KVK. "
-            f"Kisan Call Centre: {config.KCC_NUMBER}")
+            "- उत्तरे फक्त ICAR, कृषी विद्यापीठे आणि सरकारी दस्तऐवजांतून येतात.\n"
+            "- माहिती स्रोतांत नसेल तर अॅप तसे सांगते; अंदाज लावत नाही.\n"
+            "- तुमचा आवाज लिप्यंतरणासाठी Sarvam AI कडे जातो; हे अॅप काहीही साठवत नाही.\n"
+            "- बोली भाषा किंवा गोंगाटामुळे आवाज ओळखण्यात चुका होऊ शकतात.\n"
+            "- कृषी अधिकारी किंवा KVK चा सल्ला याला पर्याय नाही.\n\n"
+            f"किसान कॉल सेंटर: **{config.KCC_NUMBER}**")
 lang, crop = config.LANGUAGES[lang_label], CROPS[crop_label]
 
 # ---------------- Main ----------------
-st.title("🌾 कृषी मित्र — Krishi Mitra")
-st.write("ऊस, द्राक्ष आणि हळद पिकांसाठी विश्वासार्ह सरकारी/ICAR स्रोतांवर आधारित मराठी आवाज-सल्लागार.")
+st.markdown(
+    '<div class="masthead"><p class="kicker">ICAR · MPKV · PM-KISAN स्रोतांवर आधारित</p>'
+    "<h1>कृषी मित्र</h1>"
+    '<p class="sub">ऊस, द्राक्ष आणि हळद यांबद्दल प्रश्न विचारा. उत्तर मराठीत, पान क्रमांकासह स्रोत दाखवून.</p>'
+    '<hr class="rule"></div>', unsafe_allow_html=True)
 
 st.session_state.setdefault("q", "")
 
 
-def use_example(text: str) -> None:
-    st.session_state.q = text
-    st.session_state.go = True
+def pick_example() -> None:
+    """Pill clicked: copy the example into the box and run it (then clear the pill)."""
+    if st.session_state.ex:
+        st.session_state.q = st.session_state.ex
+        st.session_state.go = True
+    st.session_state.ex = None
 
 
-st.caption("उदाहरणे / Examples")
-for i, ex in enumerate(EXAMPLES):
-    st.button(ex, key=f"ex{i}", on_click=use_example, args=(ex,), width="stretch")
+tab_type, tab_speak = st.tabs(["लिहा / Type", "बोला / Speak"])
+with tab_type:
+    st.text_area("प्रश्न", key="q", height=96, label_visibility="collapsed",
+                 placeholder="उदा. हळदीवरील कंदकुज रोग कसा टाळावा?")
+with tab_speak:
+    audio = st.audio_input("प्रश्न बोला", label_visibility="collapsed")
+    st.caption("रेकॉर्ड थांबवल्यावर खालील बटण दाबा.")
 
-st.text_input("तुमचा प्रश्न लिहा / Type your question", key="q")
-audio = st.audio_input("किंवा बोला / Or speak")
-clicked = st.button("विचारा / Ask", type="primary")
+clicked = st.button("उत्तर मिळवा", type="primary")
+st.markdown('<p class="label">उदाहरणे / TRY ASKING</p>', unsafe_allow_html=True)
+st.pills("उदाहरणे", EXAMPLES, key="ex", on_change=pick_example, label_visibility="collapsed")
 
 if clicked or st.session_state.pop("go", False):
     run_query(st.session_state.q, audio.getvalue() if audio else None, lang, crop)
