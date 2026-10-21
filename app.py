@@ -97,6 +97,14 @@ def show_result(r: dict) -> None:
 
 
 # ---------------- Main ----------------
+def rerun_with_new_settings() -> None:
+    """Language/crop changed: answer the question that is already on screen again with them."""
+    r = st.session_state.get("result")
+    if r and "error" not in r and r.get("question"):
+        st.session_state.q = r["question"]
+        st.session_state.go = True
+
+
 head, gear = st.columns([7, 1], vertical_alignment="top")
 with head:
     st.markdown(
@@ -108,8 +116,9 @@ with gear:
     # Widgets inside a popover still run every time, so lang/crop are always available below.
     with st.popover("", icon=":material/settings:", help="सेटिंग्ज / Settings"):
         st.markdown("**सेटिंग्ज / Settings**")
-        lang_label = st.selectbox("उत्तराची भाषा / Answer language", list(config.LANGUAGES))
-        crop_label = st.selectbox("पीक / Crop", list(CROPS))
+        lang_label = st.selectbox("उत्तराची भाषा / Answer language", list(config.LANGUAGES),
+                                  key="lang", on_change=rerun_with_new_settings)
+        crop_label = st.selectbox("पीक / Crop", list(CROPS), key="crop", on_change=rerun_with_new_settings)
         st.markdown(
             "---\n**माहिती आणि मर्यादा**\n\n"
             "- उत्तरे फक्त ICAR, कृषी विद्यापीठे आणि सरकारी दस्तऐवजांतून येतात.\n"
