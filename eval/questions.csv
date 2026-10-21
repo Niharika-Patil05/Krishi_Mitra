@@ -1,0 +1,35 @@
+question,lang,crop,expected_source
+How to manage rhizome rot in turmeric?,en,turmeric,ipm_pop_turmeric.pdf
+हळदीवरील कंदकुज रोग कसा टाळावा?,mr,turmeric,ipm_pop_turmeric.pdf
+Which insect pests attack turmeric?,en,turmeric,ipm_pop_turmeric.pdf
+हळदीची लागवड कधी करावी?,mr,turmeric,ipm_pop_turmeric.pdf
+What is the seed rate and seed treatment for turmeric?,en,turmeric,ipm_pop_turmeric.pdf
+हळदीवरील पानांवरील ठिपके रोगावर काय उपाय आहे?,mr,turmeric,ipm_pop_turmeric.pdf
+What are the improved turmeric varieties?,en,turmeric,mpkv_spices_varieties.pdf
+Phule Haridra turmeric variety yield and duration,en,turmeric,mpkv_spices_varieties.pdf
+How to control thrips and leaf roller in turmeric?,en,turmeric,ipm_pop_turmeric.pdf
+हळद काढणी आणि प्रक्रिया कशी करावी?,mr,turmeric,ipm_pop_turmeric.pdf
+द्राक्षावरील भुरी रोगासाठी काय उपाय करावा?,mr,grapes,GAPTableGrapes.pdf
+How to control downy mildew in grapes?,en,grapes,GAPTableGrapes.pdf
+When should grape vines be pruned?,en,grapes,GAPTableGrapes.pdf
+द्राक्ष बागेत पाणी व्यवस्थापन कसे करावे?,mr,grapes,GAPTableGrapes.pdf
+What is the recommended spacing and training system for table grapes?,en,grapes,GAPTableGrapes.pdf
+द्राक्षाची काढणी कधी करावी?,mr,grapes,GAPTableGrapes.pdf
+How to manage fertilizers and nutrients in table grapes?,en,grapes,GAPTableGrapes.pdf
+Which rootstocks are used for grapes?,en,grapes,GAPTableGrapes.pdf
+ऊस लागवडीसाठी जमीन कशी तयार करावी?,mr,sugarcane,TODO_sugarcane.pdf
+What is the recommended seed rate for sugarcane?,en,sugarcane,TODO_sugarcane.pdf
+उसावरील लोकरी मावा कसा नियंत्रित करावा?,mr,sugarcane,TODO_sugarcane.pdf
+How to control red rot in sugarcane?,en,sugarcane,TODO_sugarcane.pdf
+उसाला खत किती द्यावे?,mr,sugarcane,TODO_sugarcane.pdf
+When is the best time to plant sugarcane in Maharashtra?,en,sugarcane,TODO_sugarcane.pdf
+How to manage early shoot borer in sugarcane?,en,sugarcane,TODO_sugarcane.pdf
+ऊस पिकासाठी सिंचन कधी करावे?,mr,sugarcane,TODO_sugarcane.pdf
+पीएम-किसान योजनेत किती रक्कम मिळते?,mr,scheme,pmkisan_guidelines.pdf
+Who is eligible for PM-KISAN?,en,scheme,pmkisan_guidelines.pdf
+पीएम-किसान योजनेसाठी कोण पात्र नाही?,mr,scheme,pmkisan_guidelines.pdf
+How to grow apples in Kashmir?,en,none,NONE
+What is the best fertilizer for wheat in Punjab?,en,none,NONE
+मला बिटकॉइन कसे खरेदी करावे?,mr,none,NONE
+How to treat blast disease in paddy?,en,none,NONE
+Who won the cricket world cup?,en,none,NONE

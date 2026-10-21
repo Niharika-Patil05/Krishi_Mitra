@@ -5,15 +5,13 @@ import time
 import streamlit as st
 
 from src import config, pipeline, speech
+from src.config import EXAMPLES
 
 logging.basicConfig(level=logging.INFO)
 st.set_page_config(page_title="कृषी मित्र — Krishi Mitra", page_icon="🌾")
 
 CROPS = {"सर्व / All": None, "ऊस Sugarcane": "sugarcane", "द्राक्ष Grapes": "grapes",
          "हळद Turmeric": "turmeric", "योजना Schemes": "scheme"}
-EXAMPLES = ["द्राक्षावरील भुरी रोगासाठी काय उपाय करावा?", "हळदीची लागवड कधी करावी?",
-            "पीएम-किसान योजनेत किती रक्कम मिळते?", "हळदीवरील कंदकुज रोग कसा टाळावा?",
-            "ऊस लागवडीसाठी जमीन कशी तयार करावी?", "What are the improved turmeric varieties?"]
 
 
 @st.cache_resource(show_spinner="माहिती भांडार लोड होत आहे...")

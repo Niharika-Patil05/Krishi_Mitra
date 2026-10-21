@@ -66,3 +66,8 @@ def get_secret(name: str) -> str | None:
         pass  # streamlit missing or no secrets file: fall through to env
     load_secrets()
     return os.getenv(name)
+
+# Shown as buttons in the UI; also used to pre-compute demo_cache.json
+EXAMPLES = ["द्राक्षावरील भुरी रोगासाठी काय उपाय करावा?", "हळदीची लागवड कधी करावी?",
+            "पीएम-किसान योजनेत किती रक्कम मिळते?", "हळदीवरील कंदकुज रोग कसा टाळावा?",
+            "ऊस लागवडीसाठी जमीन कशी तयार करावी?", "What are the improved turmeric varieties?"]

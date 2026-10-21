@@ -10,7 +10,8 @@ from src.retriever import Retriever
 log = logging.getLogger("krishi.pipeline")
 
 
-def ask(question: str, lang_code: str, retriever: Retriever, crop: str | None = None) -> dict:
+def ask(question: str, lang_code: str, retriever: Retriever, crop: str | None = None,
+        with_audio: bool = True) -> dict:
     """Run the RAG pipeline. Raises RuntimeError if the LLM is unreachable (app then tries the cache).
 
     Returns: answer, sources (hits), audio (WAV bytes or None), provider, not_found, timings (s).
@@ -43,7 +44,8 @@ def ask(question: str, lang_code: str, retriever: Retriever, crop: str | None = 
     audio = None
     t0 = clock()
     try:
-        audio = speech.tts(prompts.strip_citations(answer), lang_code)
+        if with_audio:
+            audio = speech.tts(prompts.strip_citations(answer), lang_code)
     except Exception as e:
         log.warning("TTS failed: %s", e)
     t["tts"] = clock() - t0
