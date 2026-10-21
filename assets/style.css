@@ -45,4 +45,5 @@ textarea:focus { border-color:var(--green) !important; box-shadow:0 0 0 1px var(
 .src .p { color:var(--muted); font-size:.85rem; } .src a { color:var(--green); }
 .src blockquote { margin:.4rem 0 0; padding-left:.8rem; border-left:2px solid var(--line); color:#4d5a49; font-size:.88rem; line-height:1.55; }
 [data-testid="stExpander"] { border:1px solid var(--line); background:#fffdf8; border-radius:6px; }
-[data-testid="stSidebar"] { background:#efe9da; border-right:1px solid var(--line); }
+[data-testid="stSidebar"], [data-testid="stSidebarCollapsedControl"] { display:none !important; }
+[data-testid="stSelectbox"] label p { font-size:.85rem; color:var(--muted); }
