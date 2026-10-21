@@ -23,7 +23,7 @@ flowchart LR
 3. **Query rewrite:** the LLM converts the question to a short English search query (the PDFs are English). If the LLM is down we search with the original text; e5 is multilingual.
 4. **Retrieval:** the query is embedded with the `query: ` prefix; FAISS inner product over normalised vectors = cosine similarity. A crop filter keeps the chosen crop plus scheme documents.
 5. **Refusal check:** if the best score is under `SCORE_THRESHOLD`, a fixed message is returned without calling the LLM.
-6. **Grounded generation:** the top-5 chunks are numbered in the prompt. The model must answer only from them, cite `[n]`, reply in the chosen language and add the dosage disclaimer.
+6. **Grounded generation:** the top-8 chunks are numbered in the prompt. The model must answer only from them, cite `[n]`, reply in the chosen language and add the dosage disclaimer.
 7. **Text to speech:** citation markers are stripped and the answer is synthesised (split at 2000 characters if needed). TTS failure never hides the text answer.
 8. **Fallbacks:** Sarvam LLM → Groq on error/20 s timeout; if all APIs fail, `demo_cache.json` is searched for a near-identical question.
 
@@ -41,7 +41,7 @@ Streamlit Community Cloud gives about 2.7 GB RAM and CPU only. A local LLM or AS
 - **Why the `query:` / `passage:` prefixes?** The e5 model card requires them; omitting them lowers retrieval quality.
 - **How do you stop hallucination?** Answer-only-from-context prompt, numbered citations, temperature 0.2, a retrieval score floor with a fixed refusal, and visible sources so a user can check.
 - **How do you know it works?** `eval/run_eval.py`: hit@1/hit@5 against expected source document, refusal rate on out-of-scope questions, latency per stage.
-- **Why is the similarity threshold hard to set?** e5-small scores are compressed (relevant ≈ 0.8–0.9, irrelevant ≈ 0.75–0.85), so we combine the threshold with the LLM's own "not in context" rule.
+- **Why is the similarity threshold hard to set?** e5-small scores are compressed (relevant ≈ 0.84–0.92, irrelevant ≈ 0.77–0.85). We picked 0.84 from the eval sweep (keeps all in-scope questions) and rely on the LLM's own "not in context" rule for the rest.
 - **Privacy?** Voice and text go to Sarvam/Groq over HTTPS; the app stores nothing.
 - **What if Sarvam is down?** Groq answers; if both fail, a cached answer for the example questions is shown.
 - **Limitations?** Only 5 documents, English sources, ASR errors on dialects, scanned/legacy-font PDFs extract badly, answers are advice not agronomist sign-off.

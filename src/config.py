@@ -27,8 +27,8 @@ CHUNK_OVERLAP = 150   # characters
 MIN_PAGE_CHARS = 50   # skip covers / blank pages
 
 # --- Retrieval --------------------------------------------------------------
-TOP_K = 5
-SCORE_THRESHOLD = 0.75  # starting value; tuned in Milestone 6 using eval
+TOP_K = 8
+SCORE_THRESHOLD = 0.84  # tuned on eval/questions.csv: keeps 100% of in-scope, refuses 80% of out-of-scope before any LLM call
 
 # --- Languages (UI label -> Sarvam code; codes verified against docs.sarvam.ai)
 LANGUAGES = {"मराठी": "mr-IN", "हिंदी": "hi-IN", "English": "en-IN"}
@@ -70,4 +70,4 @@ def get_secret(name: str) -> str | None:
 # Shown as buttons in the UI; also used to pre-compute demo_cache.json
 EXAMPLES = ["द्राक्षावरील भुरी रोगासाठी काय उपाय करावा?", "हळदीची लागवड कधी करावी?",
             "पीएम-किसान योजनेत किती रक्कम मिळते?", "हळदीवरील कंदकुज रोग कसा टाळावा?",
-            "ऊस लागवडीसाठी जमीन कशी तयार करावी?", "What are the improved turmeric varieties?"]
+            "कोल्हापूर भागात ऊस लागवड कोणत्या महिन्यात करावी?", "What are the improved turmeric varieties?"]

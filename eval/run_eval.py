@@ -46,7 +46,7 @@ def evaluate(no_llm: bool) -> pd.DataFrame:
             "question": q.question, "lang": q.lang, "crop": q.crop, "expected": q.expected_source,
             "top1_file": files[0] if files else "", "top1_score": hits[0]["score"] if hits else 0.0,
             "hit@1": in_scope and files[:1] == [q.expected_source],
-            "hit@5": in_scope and q.expected_source in files,
+            "hit@5": in_scope and q.expected_source in files[:5],
             "refused": refused, "answer": answer, **{f"t_{k}": v for k, v in t.items()},
         })
     return pd.DataFrame(rows)

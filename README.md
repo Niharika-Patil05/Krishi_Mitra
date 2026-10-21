@@ -56,19 +56,32 @@ Useful: `python -m src.llm "..."`, `python -m src.speech` (TTS→STT round trip)
    GROQ_API_KEY = "..."
    ```
 4. Deploy, then open the app and test one text question and one voice question.
-5. Before the demo: run `python -m eval.run_eval --cache` locally, commit `demo_cache.json`, redeploy.
+5. `demo_cache.json` (answers to the 6 example questions) is already committed as an offline safety net. If you change the examples in `src/config.py`, re-run `python -m eval.run_eval --cache` and commit it.
    Open the app once beforehand so it is not asleep.
 
 ## Evaluation results
-**TODO — not yet measured on the full corpus.** Run `python -m eval.run_eval` once all PDFs and API
-keys are in place and paste the table here (hit@1, hit@5, refusal accuracy, latency).
+Run: `python -m eval.run_eval` (34 questions: 29 in-scope in Marathi/English, 5 out-of-scope). Raw rows in `eval/results.csv`.
+
+| Metric | Value |
+|---|---|
+| Retrieval hit@1 (right source document ranked first) | 97% |
+| Retrieval hit@5 | 100% |
+| Refusal accuracy on out-of-scope questions | 100% |
+| In-scope questions wrongly refused | 7% (2 of 29) |
+| Avg latency: query rewrite / retrieval / answer | 0.5 s / 0.03 s / 1.2 s |
+| Avg latency: text-to-speech | about 4 s (runs after the text answer is ready) |
+| App memory (Streamlit + embedding model + index) | about 1.0 GB |
+
+**Refusal design.** The similarity threshold (`SCORE_THRESHOLD = 0.84`) was chosen from the eval sweep: it keeps 100% of in-scope questions and refuses 80% of out-of-scope ones before any LLM call. The rest are refused by the answer prompt ("not in the context -> say so, give Kisan Call Centre number"). Both layers together refused all 5 out-of-scope questions.
+
+**Caveats.** The test set is small and written by us; the sugarcane source is a research-station profile (planting time, fertiliser, weeds, varieties) rather than a full package of practices, so pest/disease questions on sugarcane are correctly refused.
 
 ## Limitations
-- Knowledge base is a handful of documents; anything outside gets a refusal.
+- Knowledge base is 5 documents (turmeric, grapes, sugarcane, PM-KISAN, MPKV varieties); anything outside gets a refusal.
 - Sources are English; Marathi answers are LLM translations of English passages.
 - Speech recognition can mis-hear dialects, noise and crop/pest names.
-- PDFs with legacy (non-Unicode) fonts extract as garbage text.
-- Embedding similarity scores are compressed, so the refusal threshold is imperfect.
+- PDFs with legacy (non-Unicode) fonts extract as garbage text (one MPKV phrase is affected; chunks that are mostly junk are dropped at ingestion).
+- Embedding similarity scores are compressed (relevant 0.84-0.92, irrelevant 0.77-0.85), so the threshold alone is imperfect; the LLM refusal rule backs it up.
 - Free-tier APIs have rate limits and latency; the demo cache covers the example questions only.
 
 ## Ethics

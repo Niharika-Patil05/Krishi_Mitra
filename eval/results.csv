@@ -1,0 +1,200 @@
+question,lang,crop,expected,top1_file,top1_score,hit@1,hit@5,refused,answer,t_rewrite,t_retrieve,t_answer,t_tts
+How to manage rhizome rot in turmeric?,en,turmeric,ipm_pop_turmeric.pdf,ipm_pop_turmeric.pdf,0.9195992946624756,True,True,False,"* Use resistant varieties for rhizome rot [1].
+* Follow crop rotation with maize, cotton, or soybean [1].
+* Plant only disease-free seed rhizomes [1].
+* Use raised beds of 15-30 cm height with 50 cm spacing [1].
+* Flood the field for 30 days or solarise the soil for 60 days during hot months [1].
+* Treat seed rhizomes with hot water at 51°C for 10 minutes [1].
+* Keep rhizomes under a clear polythene sheet in direct sunlight to raise temperature to 48°C for 30 minutes [1].
+* Use bio-fumigation with cabbage and mustard plant refuse [1].
+* Apply well-rotten sheep manure at 10 t/ha in two splits [3].
+
+Consult your local agriculture officer / KVK before use.",0.5124793579998368,0.031559657999878254,1.9410139229999004,5.340002644516062e-07
+हळदीवरील कंदकुज रोग कसा टाळावा?,mr,turmeric,ipm_pop_turmeric.pdf,ipm_pop_turmeric.pdf,0.9126367568969727,True,True,False,"हळदीवरील कंदकुज रोग टाळण्यासाठी खालील उपाय करा [1, 4, 8]:
+
+* रोगराई टाळण्यासाठी रोगप्रतिबंधक जाती वापरा [1].
+* मका, कापूस किंवा सोयाबीनसोबत पीक फेरपालट करा [1, 4].
+* रोगमुक्त कंद पेरणीसाठी निवडा [1].
+* ३० सेमी उंच आणि १ मीटर रुंद उंचवट्यांवर लागवड करा [1].
+* कंदांवर ५१°C तापमानाचे गरम पाणी १० मिनिटे फवारा [1, 8].
+* सूर्यप्रकाशात ४८°C तापमानावर ३० मिनिटे पॉलीथिनखाली ठेवा [1].
+* कोबी आणि मोहरीच्या पेंढ्याचा बायो-फ्युमिगेशनसाठी वापर करा [1, 8].
+* अति सिंचन आणि पूर सिंचन टाळा [8].
+* शेताची स्वच्छता ठेवा [4].
+
+वापरण्यापूर्वी स्थानिक कृषी अधिकारी / KVK यांचा सल्ला घ्या.",0.3245877899998959,0.018573878000097466,1.503206493000107,5.32999820279656e-07
+Which insect pests attack turmeric?,en,turmeric,ipm_pop_turmeric.pdf,ipm_pop_turmeric.pdf,0.8767954111099243,True,True,False,"* Turmeric Shoot Borer attacks leaves and soft parts. [3]
+* White Grub damages the main stem. [2]
+* Turmeric Skipper/Leaf Roller rolls and feeds on leaves. [4]
+* Field cricket also attacks the crop. [5]
+* Other insect pests include leaf-eating larvae and web-forming pests. [2]
+
+Consult your local agriculture officer / KVK before use.",0.7204649729997072,0.017632425000101648,1.2072700180001448,5.469996722240467e-07
+हळदीची लागवड कधी करावी?,mr,turmeric,ipm_pop_turmeric.pdf,ipm_pop_turmeric.pdf,0.9012166857719421,True,True,False,"* भारतात हळदीची लागवड सहसा पावसाळ्यापूर्वीच्या सरी पडल्यानंतर करावी [1].
+* ही वेळ राज्यानुसार थोडी वेगळी असू शकते [1].
+* लागवडीसाठी एक महिना आधीच बियाणे तयार करून ठेवावे [1].
+* बियाणे तयार करताना ५-७ ग्रॅम वजनाचा एक कळीचा तुकडा घ्यावा [1].
+* रोपांची लागवड सावलीत तयार केलेल्या प्रो-ट्रेमध्ये करावी [1].
+
+वापरण्यापूर्वी स्थानिक कृषी अधिकारी / KVK यांचा सल्ला घ्या.",0.6136611930000981,0.03881344000001263,1.2988462120001714,4.260000423528254e-07
+What is the seed rate and seed treatment for turmeric?,en,turmeric,ipm_pop_turmeric.pdf,ipm_pop_turmeric.pdf,0.8929215669631958,True,True,False,"* The seed rate is 2,500 kg of rhizomes per hectare [3].
+* Treat seed with P. fluorescens at 10 g/kg and T. viride at 4 g/kg [3].
+* You can also use single bud sprouts of about 5 g for transplanting [3].
+* Another method is to soak rhizomes in hot water at 51°C for 10 minutes [1].
+* Or keep them under clear polythene in sunlight to reach 48°C for 30 minutes [1].
+
+Consult your local agriculture officer / KVK before use.",0.8103687350003383,0.021825697999702243,2.123611950000395,4.749999789055437e-07
+हळदीवरील पानांवरील ठिपके रोगावर काय उपाय आहे?,mr,turmeric,ipm_pop_turmeric.pdf,ipm_pop_turmeric.pdf,0.9091218113899231,True,True,False,"हळदीवरील पानांवरील ठिपके रोगावर खालील उपाय करा [1, 2, 7]:
+* रोगट पाने काढून नष्ट करा [1].
+* शेताची स्वच्छता ठेवा [1, 3].
+* लसूण अर्काची फवारणी करा [2].
+* बाधित रोपांवर Azoxystrobin 18.2% + Difenoconazole 11.4% (0.1% किंवा 1 ml/लिटर प्रति हेक्टर) फवारा [2, 7].
+
+वापरण्यापूर्वी स्थानिक कृषी अधिकारी / KVK यांचा सल्ला घ्या.",0.6252326630001335,0.018374099000084243,1.7024962069999674,5.29999852005858e-07
+What are the improved turmeric varieties?,en,turmeric,mpkv_spices_varieties.pdf,ipm_pop_turmeric.pdf,0.9018089771270752,False,True,True,"Here are the improved turmeric varieties for you:
+
+*   Krishna, released in 1984 by MPKV, Rahuri [3].
+*   Phule Haridra (KDT-3), released in 2022 with 5.35% curcumin [4].
+*   Phule Swarupa, released in 2004 by MPKV, Rahuri [5].
+
+Other popular varieties include CO-11983, BSR-11986, Roma, Suroma, and IISR Prabha [1].
+
+Call Kisan Call Centre 1800-180-1551 or your local KVK if you need more help.",0.6318247049998718,0.02149285299992698,1.921454052000172,2.4900009520933963e-07
+Phule Haridra turmeric variety yield and duration,en,turmeric,mpkv_spices_varieties.pdf,mpkv_spices_varieties.pdf,0.919041633605957,True,True,False,"• Phule Haridra gives green yield of 406.72 q/ha and dry yield of 93.56 q/ha [1].
+• The crop duration is 250-260 days [1].
+• It is an improved variety released in 2022 [1].
+
+Consult your local agriculture officer / KVK before use.",0.5223576080002204,0.026886868000019604,1.0996763230000397,5.490001058205962e-07
+How to control thrips and leaf roller in turmeric?,en,turmeric,ipm_pop_turmeric.pdf,ipm_pop_turmeric.pdf,0.8523727059364319,True,True,False,"*   For thrips, remove old crops, rotate crops, remove weeds, and use resistant varieties [3].
+*   For leaf roller, hand pick and destroy larvae and pupae [2].
+*   Conserve natural enemies like ladybird beetles, spiders, and Trichogramma wasps [2][5].
+*   Release Trichogramma chilonis at 20,000 to 40,000 per acre [5][7].
+*   Spray neem oil at 0.5% every two weeks [7].
+
+Consult your local agriculture officer / KVK before use.",0.5045601289998558,0.018022237999957724,2.064388891999897,6.640002538915724e-07
+हळद काढणी आणि प्रक्रिया कशी करावी?,mr,turmeric,ipm_pop_turmeric.pdf,ipm_pop_turmeric.pdf,0.9077390432357788,True,True,False,"* हळदीची काढणी पूर्ण पक्व झाल्यावर करा. रोप आणि खोड सुकले की पीक तयार होते [5].
+* काढताना कंदांना इजा होणार नाही याची काळजी घ्या. मुळे आणि माती धुवून काढा [5].
+* काढणीनंतर ३ ते ४ दिवसांत हळदीच्या बोटांना (fingers) आणि कंदांना (bulbs) वेगळे करून शिजवा [1].
+* शिजवलेली बोटे ५-७ सेमी जाडीच्या थरात उन्हात १०-१५ दिवस वाळवा [1].
+* वाळल्यानंतर हाताने किंवा मशीनने घासून पॉलिश करा. यामुळे सुरकुत्या निघतात [2].
+
+वापरण्यापूर्वी स्थानिक कृषी अधिकारी / KVK यांचा सल्ला घ्या.",0.6902398540000831,0.01783443000022089,1.9198649649997606,6.850000318081584e-07
+द्राक्षावरील भुरी रोगासाठी काय उपाय करावा?,mr,grapes,GAPTableGrapes.pdf,GAPTableGrapes.pdf,0.8908827304840088,True,True,False,"* फळांना जास्त दिवस उरले असतील तर सल्फर 80 WDG @ 1.0 ते 1.5 g/L किंवा HP Grape Spray oil 5-7 ml/L फवारणी करा [2].
+* फळे पिकण्याच्या शेवटच्या ३० दिवसांत अझोक्सिस्ट्रोबिनसारखी स्ट्रुबिलुरिन फंगीसाइड फवारा [3].
+* पावसाळ्यानंतर पोटॅशियम बायकार्बोनेट 5.0 g/L किंवा 10 g/L फवारणी करा [4][7].
+* पावसानंतर आलेले कोंब हाताने काढून टाका [4].
+* फवारणी करताना सिल्व्हेट किंवा शुअर-शॉट @ 0.05 ते 0.1 ml/L सारखे स्प्रेडर वापरा [2].
+
+वापरण्यापूर्वी स्थानिक कृषी अधिकारी / KVK यांचा सल्ला घ्या.",0.5121949460003634,0.021779798999887134,1.4488002649995906,6.949999260541517e-07
+How to control downy mildew in grapes?,en,grapes,GAPTableGrapes.pdf,GAPTableGrapes.pdf,0.8922075033187866,True,True,False,"* Spray systemic fungicides for downy mildew at 5 days interval during the first 10-50 days after fruit pruning [1, 2].
+* Give 2 preventive sprays of low risk group fungicides during 10 to 25 days after pruning [2].
+* Give 1 or 2 additional preventive sprays of systemic fungicides if downy mildew is present on bunches [4].
+* Collect and burn all infected bunches, leaves and canes before back pruning [5].
+* Spray non-systemic fungicides like Bordeaux mixture on old leaves if disease is present [8].
+
+Consult your local agriculture officer / KVK before use.",0.6894455040001048,0.020491327999934583,1.5430722999999489,5.20999947184464e-07
+When should grape vines be pruned?,en,grapes,GAPTableGrapes.pdf,GAPTableGrapes.pdf,0.8923264741897583,True,True,False,"* Normal fruit pruning is around 15th of October [5].
+* It can range from first week of July to last week of November [5].
+* Pruning is done based on prevailing weather conditions [4].
+* In central India, vines grow vigorously throughout the year [4].
+
+Consult your local agriculture officer / KVK before use.",0.6821138969999083,0.03815565000013521,0.9482375829998091,6.610002856177744e-07
+द्राक्ष बागेत पाणी व्यवस्थापन कसे करावे?,mr,grapes,GAPTableGrapes.pdf,GAPTableGrapes.pdf,0.8835309743881226,True,True,False,"द्राक्ष बागेत पाणी व्यवस्थापनासाठी खालील गोष्टी करा:
+
+* द्राक्ष वेलीला पाण्याचा मोठा वाटा असतो, त्यामुळे पाण्याची गुणवत्ता तपासावी [2].
+* बागेतील माती आणि पाण्याची नियमित चाचणी करा, जेणेकरून जमिनीत जड धातू नाहीत याची खात्री होईल [6].
+* वाढीच्या टप्प्यानुसार पाणी द्या, जसे की मुळांना पाणी देताना [7].
+* पाण्याचा निचरा आणि ओलावा योग्य राखण्यासाठी योग्य नियोजन करा [2].
+
+वापरण्यापूर्वी स्थानिक कृषी अधिकारी / KVK यांचा सल्ला घ्या.",0.41946723599994584,0.017631462999815994,0.9305514889997539,5.069996404927224e-07
+What is the recommended spacing and training system for table grapes?,en,grapes,GAPTableGrapes.pdf,GAPTableGrapes.pdf,0.9100791811943054,True,True,False,"* Plant table grapes with a spacing of 5-6 ft [7].
+* The training system should be cheap and expose leaves to sunlight [1].
+* It should support the crop load and allow mechanization [1].
+* It must give a desirable shape and allow light and ventilation [3].
+* It should offer scope for effective spray coverage [3].
+
+Consult your local agriculture officer / KVK before use.",0.4165783260000353,0.05011262500011071,1.0017044749997694,7.11000211595092e-07
+द्राक्षाची काढणी कधी करावी?,mr,grapes,GAPTableGrapes.pdf,GAPTableGrapes.pdf,0.8819053173065186,True,True,False,"* द्राक्षे पिकल्यानंतरच तोडावीत [2].
+* रंगीत जातींमध्ये समान रंग येणे हे पिकण्याचे लक्षण आहे [2].
+* पांढऱ्या जातींमध्ये समान हिरवा रंग पसंत केला जातो [2].
+* AGMARK नुसार किमान १६°B TSS आणि २० चा साखर-अम्ल प्रमाण असावे [2].
+* काढणीसाठी मऊ रबरी हातमोजे घातलेले कुशल कामगार आणि धारदार कात्री वापरावी [5].
+* द्राक्षे नेहमी देठाने (stem) धरावीत, जेणेकरून नुकसान होणार नाही [5].
+
+वापरण्यापूर्वी स्थानिक कृषी अधिकारी / KVK यांचा सल्ला घ्या.",0.32082344999980705,0.020112803999836615,1.1437867109998479,9.339996722701471e-07
+How to manage fertilizers and nutrients in table grapes?,en,grapes,GAPTableGrapes.pdf,GAPTableGrapes.pdf,0.8806459903717041,True,True,False,"* Test your soil and petiole during the rest period [3].
+* Test your irrigation water quality at the same time [3].
+* Apply fertilizer based on the soil and petiole test report [3].
+* Consider nutrients from organic manures and irrigation water [3].
+* Check the fertilizer bag label and ensure it meets government specifications [3].
+
+Consult your local agriculture officer / KVK before use.",0.335166296999887,0.02822659699995711,0.7622003699998459,4.929997885483317e-07
+Which rootstocks are used for grapes?,en,grapes,GAPTableGrapes.pdf,GAPTableGrapes.pdf,0.8781664967536926,True,True,False,"* Dogridge was the first rootstock used in India [1, 2, 7].
+* It had problems like high vigour and less fruit [1, 7].
+* 110R is now the most common rootstock in India [5, 7].
+* 110R gives better bud sprouting, more fruit, and less salt in leaves [5].
+* Some vineyards still do well on their own roots [3, 5].
+
+Consult your local agriculture officer / KVK before use.",0.329229574999772,0.018879992000165657,0.8728335719997631,6.249997568374965e-07
+ऊस लागवड कोणत्या महिन्यात करावी?,mr,sugarcane,aicrp_sugarcane_kolhapur.pdf,aicrp_sugarcane_kolhapur.pdf,0.8750569820404053,True,True,False,"* ऊस लागवड डिसेंबर महिन्यात करावी [1].
+* लागवडीनंतर ८ ते १० आठवड्यांनी तणनाशक फवारावे [1].
+* कापणी जानेवारी महिन्यात करावी [1].
+
+वापरण्यापूर्वी स्थानिक कृषी अधिकारी / KVK यांचा सल्ला घ्या.",0.30402386199966713,0.020630722000078094,0.4946711770003276,6.459999895014334e-07
+When should sugarcane be planted and harvested in Kolhapur?,en,sugarcane,aicrp_sugarcane_kolhapur.pdf,aicrp_sugarcane_kolhapur.pdf,0.8965017795562744,True,True,False,"* Plant sugarcane in December in Kolhapur [4].
+* Harvest sugarcane in January in Kolhapur [4].
+* This planting and harvesting schedule is beneficial for all varieties in the region [4].",0.37762514099995315,0.05405642499999885,0.614059073000135,5.649999366141856e-07
+उसाला नत्र खत किती आणि कधी द्यावे?,mr,sugarcane,aicrp_sugarcane_kolhapur.pdf,aicrp_sugarcane_kolhapur.pdf,0.9017431735992432,True,True,False,"* उसाला 250 किलो नत्र (N) प्रति हेक्टर द्यावे [1].
+* हे खत चार टप्प्यांत द्यावे [1].
+* पेरणीच्या वेळी 10% आणि ६ व्या आठवड्यात 40% खत द्यावे [1].
+* 10 व्या आठवड्यात 10% आणि 14 व्या आठवड्यात 40% खत द्यावे [1].
+* 14 व्या आठवड्यात मातीची बांधणी करताना उर्वरित खत द्यावे [1].
+
+वापरण्यापूर्वी स्थानिक कृषी अधिकारी / KVK यांचा सल्ला घ्या.",0.332164143999762,0.022257530999922892,1.1939640289997442,6.190002750372514e-07
+What nitrogen dose is recommended for suru sugarcane?,en,sugarcane,aicrp_sugarcane_kolhapur.pdf,aicrp_sugarcane_kolhapur.pdf,0.8694416284561157,True,True,False,"* Apply 250 kg N per hectare.
+* Split it into four parts: 10% at planting, 40% at 6 weeks, 10% at 10 weeks, and 40% at 14 weeks during earthing up [1].
+* Also apply 115 kg P2O5 and 115 kg K2O per hectare in two splits: half at planting and half at earthing up [1].
+
+Consult your local agriculture officer / KVK before use.",0.3383590869998443,0.018975425999997242,1.041165767000166,5.960000635241158e-07
+उसातील तण नियंत्रणासाठी काय वापरावे?,mr,sugarcane,aicrp_sugarcane_kolhapur.pdf,aicrp_sugarcane_kolhapur.pdf,0.8728417754173279,True,True,False,"* उसातील तण नियंत्रणासाठी पेरणीपूर्वी atrazine @ 2 a.i. kg/ha वापरावे [2].
+* पेरणीनंतर ८ ते १० आठवड्यांनी 2,4-D @ 1 a.i. kg/ha फवारावे [1].
+* मका उसासोबत आंतरपीक म्हणून घेऊ नये, यामुळे उसाचे उत्पन्न कमी होते [1].
+* उसातील तण नियंत्रणाबद्दल अधिक माहितीसाठी स्थानिक KVK शी संपर्क साधा.",0.30059024600041084,0.017919795999659982,1.0030704060000062,4.830003490496892e-07
+Which herbicide is recommended for weed control in sugarcane?,en,sugarcane,aicrp_sugarcane_kolhapur.pdf,aicrp_sugarcane_kolhapur.pdf,0.8972028493881226,True,True,False,"* Pre-emergence application of atrazine @ 2 a.i. kg/ha is recommended [2].
+* Post-emergence application of 2,4-D @ 1 a.i. kg/ha at 8-10 weeks after planting is recommended [1, 2].
+* Maize should not be grown as an intercrop in sugarcane as it adversely affects cane and CCS yield [1].
+
+Consult your local agriculture officer / KVK before use.",0.5425826089999646,0.02009305999990829,1.2136920520001695,6.140003279142547e-07
+Can maize be grown as an intercrop in sugarcane?,en,sugarcane,aicrp_sugarcane_kolhapur.pdf,aicrp_sugarcane_kolhapur.pdf,0.8928539752960205,True,True,True,"No, maize should not be grown as an intercrop in sugarcane. It adversely affects cane and CCS yield [1].
+
+For more help, call Kisan Call Centre 1800-180-1551 or your local KVK.",0.609487161999823,0.018029134999778762,0.7005044990000897,5.779997991339769e-07
+Which sugarcane varieties are good for jaggery?,en,sugarcane,aicrp_sugarcane_kolhapur.pdf,aicrp_sugarcane_kolhapur.pdf,0.8935630321502686,True,True,False,"* Co 92005 is excellent for jaggery yield and quality with non-lodging traits [3].
+* Phule 09057 is good for jaggery production and has non-lodging features [2].
+* Co 8014 is good for jaggery production [4].
+* Co 7527 is less flowering and non-lodging, which helps jaggery [4].
+
+Consult your local agriculture officer / KVK before use.",0.7149339000002328,0.023988006000308815,1.1838760229998115,1.0969997674692422e-06
+पीएम-किसान योजनेत किती रक्कम मिळते?,mr,scheme,pmkisan_guidelines.pdf,pmkisan_guidelines.pdf,0.8763423562049866,True,True,False,"पीएम-किसान योजनेत दरवर्षी ६००० रुपये मिळतात. हे पैसे तीन हप्त्यांमध्ये दिले जातात. प्रत्येक हप्ता २००० रुपयांचा असतो. हे पैसे दर ४ महिन्यांनी मिळतात. [2]
+
+वापरण्यापूर्वी स्थानिक कृषी अधिकारी / KVK यांचा सल्ला घ्या.",0.3307146800002556,0.01986497400002918,0.7088483509996877,5.960000635241158e-07
+Who is eligible for PM-KISAN?,en,scheme,pmkisan_guidelines.pdf,pmkisan_guidelines.pdf,0.8843650817871094,True,True,False,"* Small and marginal farmers with cultivable land are eligible [1].
+* Land ownership transfer due to inheritance requires reassessment to continue benefits [1, 4].
+* Exclusions include government employees, pensioners with Rs. 10,000+ monthly pension, income taxpayers, and professionals like doctors and engineers [6].
+* NRIs are excluded from benefits [6].
+* For land transfer after 01.02.2019, the transferee is not eligible [8].
+
+Consult your local agriculture officer / KVK before use.",0.3002046460001111,0.036359927999910724,1.0563050129999283,5.409997356764507e-07
+पीएम-किसान योजनेसाठी कोण पात्र नाही?,mr,scheme,pmkisan_guidelines.pdf,pmkisan_guidelines.pdf,0.8664243817329407,True,True,False,"पीएम-किसान योजनेसाठी खालील लोक पात्र नाहीत:
+
+* सरकारी कर्मचारी, विशेषतः मल्टी टास्किंग स्टाफ / क्लास IV / ग्रुप D कर्मचारी [1, 3].
+* जे लोक मागील वर्षी इन्कम टॅक्स भरतात [1, 3].
+* डॉक्टर, इंजिनिअर, वकील, चार्टर्ड अकाउंटंट आणि आर्किटेक्ट यांसारखे व्यावसायिक [1, 3].
+* ज्यांचे दरमहा १०,००० रुपये किंवा त्याहून अधिक पेन्शन मिळते असे निवृत्त पेन्शनर [1, 3].
+* एनआरआय (NRI) शेतकरी कुटुंबे [1, 3].
+
+अधिक माहितीसाठी स्थानिक KVK शी संपर्क साधा.",0.3364752769998631,0.021020969999881345,1.2837590039998759,6.629998097196221e-07
+How to grow apples in Kashmir?,en,none,NONE,GAPTableGrapes.pdf,0.8368131518363953,False,False,True,"Sorry, I could not find this in my trusted sources. Please contact Kisan Call Centre (1800-180-1551) or your local KVK.",0.36072054099986417,0.02720949600006861,,
+What is the best fertilizer for wheat in Punjab?,en,none,NONE,GAPTableGrapes.pdf,0.8482750654220581,False,False,True,The provided context does not contain information about the best fertilizer for wheat in Punjab. Please call Kisan Call Centre 1800-180-1551 or contact your local KVK for advice.,0.3242228639996938,0.0176853130001291,0.4939405869999973,1.2579998838191386e-06
+मला बिटकॉइन कसे खरेदी करावे?,mr,none,NONE,pmkisan_guidelines.pdf,0.8046202659606934,False,False,True,"माफ करा, ही माहिती माझ्या उपलब्ध स्रोतांमध्ये सापडली नाही. कृपया किसान कॉल सेंटर (1800-180-1551) किंवा जवळच्या KVK शी संपर्क साधा.",0.3056740630004242,0.018306040999959805,,
+How to treat blast disease in paddy?,en,none,NONE,ipm_pop_turmeric.pdf,0.8466183543205261,False,False,True,I do not have information on how to treat blast disease in paddy in the provided context. Please call Kisan Call Centre 1800-180-1551 or your local KVK for advice.,0.27612268900020354,0.016607813000064198,0.47086191700009294,5.379997674026527e-07
+Who won the cricket world cup?,en,none,NONE,mpkv_spices_varieties.pdf,0.7755268812179565,False,False,True,"Sorry, I could not find this in my trusted sources. Please contact Kisan Call Centre (1800-180-1551) or your local KVK.",0.30660083000020677,0.0390269179997631,,

@@ -101,7 +101,7 @@ def use_example(text: str) -> None:
 
 st.caption("उदाहरणे / Examples")
 for i, ex in enumerate(EXAMPLES):
-    st.button(ex, key=f"ex{i}", on_click=use_example, args=(ex,), use_container_width=True)
+    st.button(ex, key=f"ex{i}", on_click=use_example, args=(ex,), width="stretch")
 
 st.text_input("तुमचा प्रश्न लिहा / Type your question", key="q")
 audio = st.audio_input("किंवा बोला / Or speak")

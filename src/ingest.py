@@ -26,6 +26,15 @@ def clean(text: str) -> str:
     return text.strip()
 
 
+def looks_garbled(text: str) -> bool:
+    """Legacy-font PDFs extract Marathi as junk like 'gmbmdJu¶ {nH$m§Mo'. Detect and drop it.
+
+    Heuristic: junk shows up as symbols/Latin-1 characters mixed inside words.
+    """
+    junk = sum(1 for c in text if c in "¶§${}~^|\\@#¢£¥©®°±µ·»«¿" or "\u0080" <= c <= "\u00ff")
+    return junk / max(len(text), 1) > 0.02
+
+
 def chunk_text(text: str, size: int, overlap: int) -> list[str]:
     """Split on sentence boundaries into ~size-char chunks with ~overlap chars carried over."""
     # Split after . ? ! or Devanagari danda, or at paragraph breaks
@@ -69,6 +78,8 @@ def build() -> None:
         for page_no, text in extract_pages(path):
             page_counts[row.file] += 1
             for piece in chunk_text(text, config.CHUNK_SIZE, config.CHUNK_OVERLAP):
+                if looks_garbled(piece):
+                    continue
                 records.append({
                     "id": len(records), "text": piece, "file": row.file,
                     "title": row.title, "publisher": row.publisher,
