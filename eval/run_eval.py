@@ -2,7 +2,7 @@
 
   python -m eval.run_eval --no-llm   # retrieval only on the raw question (no API keys needed)
   python -m eval.run_eval            # full pipeline incl. rewrite + answer (needs keys)
-  python -m eval.run_eval --cache    # regenerate demo_cache.json from config.EXAMPLES
+  python -m eval.run_eval --cache    # regenerate demo_cache.json from ui_text.EXAMPLES
 """
 import argparse
 import json
@@ -12,7 +12,7 @@ from collections import defaultdict
 
 import pandas as pd
 
-from src import config, llm, pipeline
+from src import config, llm, pipeline, ui_text
 from src.retriever import Retriever
 
 RESULTS = config.ROOT / "eval" / "results.csv"
@@ -69,13 +69,13 @@ def summarise(df: pd.DataFrame) -> None:
 
 
 def build_cache() -> None:
-    """Pre-compute answers for the example questions (run when APIs work, before the demo)."""
+    """Pre-compute answers for every example question in every UI language (run when APIs work)."""
     retriever, cache = Retriever(), []
-    for q in config.EXAMPLES:
-        lang = lang_code(q)
-        res = pipeline.ask(q, lang, retriever, with_audio=False)
-        cache.append({"question": q, "lang": lang, "answer": res["answer"], "sources": res["sources"]})
-        print(f"cached ({res['provider']}): {q}")
+    for lang, questions in ui_text.EXAMPLES.items():
+        for q in questions:
+            res = pipeline.ask(q, lang, retriever, with_audio=False)
+            cache.append({"question": q, "lang": lang, "answer": res["answer"], "sources": res["sources"]})
+            print(f"cached ({lang}, {res['provider']}): {q}")
     config.DEMO_CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
 
 

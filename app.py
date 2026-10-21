@@ -1,4 +1,7 @@
-"""Krishi Mitra - Streamlit UI. All logic lives in src/; this file only draws and wires."""
+"""Krishi Mitra - Streamlit UI. All logic lives in src/; this file only draws and wires.
+
+All visible text comes from src/ui_text.py, so the whole page follows the chosen answer language.
+"""
 import html
 import logging
 import re
@@ -7,47 +10,47 @@ import time
 import streamlit as st
 
 from src import config, pipeline, speech
-from src.config import EXAMPLES
+from src.ui_text import CROP_KEYS, DEFAULT_CODE, EXAMPLES, TEXT
 
 logging.basicConfig(level=logging.INFO)
-st.set_page_config(page_title="कृषी मित्र — Krishi Mitra", page_icon="🌱", layout="centered", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Krishi Mitra", page_icon="🌱", layout="centered", initial_sidebar_state="collapsed")
 st.markdown(f"<style>{(config.ROOT / 'assets' / 'style.css').read_text(encoding='utf-8')}</style>",
             unsafe_allow_html=True)
 
-CROPS = {"सर्व पिके / All": None, "ऊस / Sugarcane": "sugarcane", "द्राक्ष / Grapes": "grapes",
-         "हळद / Turmeric": "turmeric", "सरकारी योजना / Schemes": "scheme"}
+# The language widget lives further down, but its value is already in session_state when the
+# script reruns, so we can pick the interface language before drawing anything.
+lang = config.LANGUAGES.get(st.session_state.get("lang"), DEFAULT_CODE)
+T = TEXT[lang]
 
 
-@st.cache_resource(show_spinner="माहिती भांडार लोड होत आहे...")
+@st.cache_resource(show_spinner=False)
 def get_retriever():
     """Load embedding model + FAISS index once per server process (not per click)."""
     from src.retriever import Retriever
     return Retriever()
 
 
-def run_query(question: str, audio_bytes: bytes | None, lang: str, crop: str | None) -> None:
+def run_query(question: str, audio_bytes: bytes | None, crop: str | None) -> None:
     """Do STT (if voice), run the pipeline, fall back to cache on failure; store in session."""
     result, transcript, t0 = None, None, time.perf_counter()
     try:
         if not question.strip() and audio_bytes:
-            with st.spinner("आवाज ऐकत आहे..."):
+            with st.spinner(T["listening"]):
                 # "unknown" = auto-detect, so a farmer may speak Marathi/Hindi/English freely
                 question = transcript = speech.stt(audio_bytes, "unknown")
         if not question.strip():
-            st.session_state.result = {"error": "कृपया प्रश्न लिहा किंवा बोला. / Please type or speak a question."}
+            st.session_state.result = {"error": T["err_empty"]}
             return
-        with st.spinner("उत्तर शोधत आहे..."):
+        with st.spinner(T["searching"]):
             result = pipeline.ask(question, lang, get_retriever(), crop)
     except FileNotFoundError:
-        st.session_state.result = {"error": "Index not found. Run `python -m src.ingest` first."}
+        st.session_state.result = {"error": T["err_index"]}
         return
     except Exception as e:  # never show a stack trace to the user
         logging.exception("query failed: %s", e)
         result = pipeline.cached_answer(question, lang)
         if result is None:
-            st.session_state.result = {
-                "error": f"सेवा सध्या उपलब्ध नाही, कृपया थोड्या वेळाने प्रयत्न करा. "
-                         f"/ Service busy, please retry. Kisan Call Centre: {config.KCC_NUMBER}"}
+            st.session_state.result = {"error": f"{T['err_busy']} {T['kcc']}: {config.KCC_NUMBER}"}
             return
     result.update(question=question, transcript=transcript, total=time.perf_counter() - t0)
     st.session_state.result = result
@@ -79,57 +82,38 @@ def show_result(r: dict) -> None:
         st.error(r["error"])
         return
     if r.get("transcript"):
-        st.markdown(f'<p class="heard">तुम्ही म्हणालात: <b>{html.escape(r["transcript"])}</b></p>', unsafe_allow_html=True)
+        st.markdown(f'<p class="heard">{T["heard"]}: <b>{html.escape(r["transcript"])}</b></p>', unsafe_allow_html=True)
     cls = "answer notfound" if r["not_found"] else "answer"
     st.markdown(f'<div class="{cls}">{answer_html(r["answer"])}</div>', unsafe_allow_html=True)
     if r.get("audio"):
         st.audio(r["audio"], format="audio/wav")
-    note = "जतन केलेले उत्तर (ऑफलाइन)" if r.get("cached") else f"{r['total']:.1f} से. · {r['provider']}"
+    note = T["cached"] if r.get("cached") else f"{r['total']:.1f} {T['sec']} · {r['provider']}"
     st.markdown(f'<p class="meta">{note}</p>', unsafe_allow_html=True)
     if r["sources"] and not r["not_found"]:
-        with st.expander(f"स्रोत / Sources ({len(r['sources'])})"):
+        with st.expander(f"{T['sources']} ({len(r['sources'])})"):
             for i, s in enumerate(r["sources"], 1):
                 link = f' · <a href="{s["url"]}" target="_blank">PDF</a>' if s["url"].startswith("http") else ""
                 st.markdown(
                     f'<div class="src"><span class="n">{i}</span><span class="t">{html.escape(s["title"])}</span>'
-                    f'<div class="p">{html.escape(s["publisher"])} · पान {s["page"]}{link}</div>'
+                    f'<div class="p">{html.escape(s["publisher"])} · {T["page"]} {s["page"]}{link}</div>'
                     f'<blockquote>{html.escape(s["text"][:280])}…</blockquote></div>', unsafe_allow_html=True)
 
 
-# ---------------- Main ----------------
 def rerun_with_new_settings() -> None:
-    """Language/crop changed: answer the question that is already on screen again with them."""
+    """Language/crop changed: answer the question already on screen again with the new settings.
+
+    If that question is one of the example chips, swap in the same example in the new language.
+    """
     r = st.session_state.get("result")
-    if r and "error" not in r and r.get("question"):
-        st.session_state.q = r["question"]
-        st.session_state.go = True
-
-
-head, gear = st.columns([7, 1], vertical_alignment="top")
-with head:
-    st.markdown(
-        '<div class="masthead"><p class="kicker">ICAR · MPKV · PM-KISAN स्रोतांवर आधारित</p>'
-        "<h1>कृषी मित्र</h1>"
-        '<p class="sub">ऊस, द्राक्ष आणि हळद यांबद्दल प्रश्न विचारा. उत्तर मराठीत, पान क्रमांकासह स्रोत दाखवून.</p>'
-        '<hr class="rule"></div>', unsafe_allow_html=True)
-with gear:
-    # Widgets inside a popover still run every time, so lang/crop are always available below.
-    with st.popover("", icon=":material/settings:", help="सेटिंग्ज / Settings"):
-        st.markdown("**सेटिंग्ज / Settings**")
-        lang_label = st.selectbox("उत्तराची भाषा / Answer language", list(config.LANGUAGES),
-                                  key="lang", on_change=rerun_with_new_settings)
-        crop_label = st.selectbox("पीक / Crop", list(CROPS), key="crop", on_change=rerun_with_new_settings)
-        st.markdown(
-            "---\n**माहिती आणि मर्यादा**\n\n"
-            "- उत्तरे फक्त ICAR, कृषी विद्यापीठे आणि सरकारी दस्तऐवजांतून येतात.\n"
-            "- माहिती स्रोतांत नसेल तर अॅप तसे सांगते; अंदाज लावत नाही.\n"
-            "- तुमचा आवाज लिप्यंतरणासाठी Sarvam AI कडे जातो; हे अॅप काहीही साठवत नाही.\n"
-            "- बोली भाषा किंवा गोंगाटामुळे आवाज ओळखण्यात चुका होऊ शकतात.\n"
-            "- कृषी अधिकारी किंवा KVK चा सल्ला याला पर्याय नाही.\n\n"
-            f"किसान कॉल सेंटर: **{config.KCC_NUMBER}**")
-lang, crop = config.LANGUAGES[lang_label], CROPS[crop_label]
-
-st.session_state.setdefault("q", "")
+    if not r or "error" in r or not r.get("question"):
+        return
+    q, new_lang = r["question"], config.LANGUAGES[st.session_state.lang]
+    for questions in EXAMPLES.values():
+        if q in questions:
+            q = EXAMPLES[new_lang][questions.index(q)]
+            break
+    st.session_state.q = q
+    st.session_state.go = True
 
 
 def pick_example() -> None:
@@ -140,20 +124,38 @@ def pick_example() -> None:
     st.session_state.ex = None
 
 
-tab_type, tab_speak = st.tabs(["लिहा / Type", "बोला / Speak"])
-with tab_type:
-    st.text_area("प्रश्न", key="q", height=96, label_visibility="collapsed",
-                 placeholder="उदा. हळदीवरील कंदकुज रोग कसा टाळावा?")
-with tab_speak:
-    audio = st.audio_input("प्रश्न बोला", label_visibility="collapsed")
-    st.caption("रेकॉर्ड थांबवल्यावर खालील बटण दाबा.")
+# ---------------- Header + settings popover ----------------
+head, gear = st.columns([7, 1], vertical_alignment="top")
+with head:
+    st.markdown(
+        f'<div class="masthead"><p class="kicker">{T["kicker"]}</p><h1>{T["title"]}</h1>'
+        f'<p class="sub">{T["sub"]}</p><hr class="rule"></div>', unsafe_allow_html=True)
+with gear:
+    # Widgets inside a popover still run every time, so lang/crop are always available below.
+    with st.popover("", icon=":material/settings:", help=T["settings"]):
+        st.markdown(f"**{T['settings']}**")
+        st.selectbox(T["answer_lang"], list(config.LANGUAGES), key="lang", on_change=rerun_with_new_settings)
+        crop_key = st.selectbox(T["crop"], CROP_KEYS, key="crop", format_func=lambda k: T["crops"][k],
+                                on_change=rerun_with_new_settings)
+        crop = None if crop_key == "all" else crop_key
+        points = "\n".join(f"- {p}" for p in T["about_points"])
+        st.markdown(f"---\n**{T['about']}**\n\n{points}\n\n{T['kcc']}: **{config.KCC_NUMBER}**")
 
-clicked = st.button("उत्तर मिळवा", type="primary")
-st.markdown('<p class="label">उदाहरणे / TRY ASKING</p>', unsafe_allow_html=True)
-st.pills("उदाहरणे", EXAMPLES, key="ex", on_change=pick_example, label_visibility="collapsed")
+# ---------------- Question input ----------------
+st.session_state.setdefault("q", "")
+tab_type, tab_speak = st.tabs([T["tab_type"], T["tab_speak"]])
+with tab_type:
+    st.text_area(T["tab_type"], key="q", height=96, label_visibility="collapsed", placeholder=T["placeholder"])
+with tab_speak:
+    audio = st.audio_input(T["speak_label"], label_visibility="collapsed")
+    st.caption(T["speak_hint"])
+
+clicked = st.button(T["ask"], type="primary")
+st.markdown(f'<p class="label">{T["try"].upper()}</p>', unsafe_allow_html=True)
+st.pills(T["try"], EXAMPLES[lang], key="ex", on_change=pick_example, label_visibility="collapsed")
 
 if clicked or st.session_state.pop("go", False):
-    run_query(st.session_state.q, audio.getvalue() if audio else None, lang, crop)
+    run_query(st.session_state.q, audio.getvalue() if audio else None, crop)
 
 if "result" in st.session_state:
     show_result(st.session_state.result)

@@ -2,7 +2,7 @@
  {
   "question": "द्राक्षावरील भुरी रोगासाठी काय उपाय करावा?",
   "lang": "mr-IN",
-  "answer": "* द्राक्षावरील भुरी रोगासाठी (powdery mildew) शेवटच्या ३० दिवसांत HP Grape Spray oil ५-७ ml/L फवारावे [1][2].\n* शेवटच्या २०-३० दिवसांत सल्फर ८० WDG @ १.० ते १.५ g/L फवारावे [2].\n* बेरी पिकण्याच्या शेवटच्या ३० दिवसांत azoxystrobin सारखे स्ट्रुबिल्युरिन फंगीसाईड वापरावे [3].\n* पावसाळ्यानंतर पोटॅशियम बायकार्बोनेट @ १० g/L फवारावे [7].\n* फवारणीसाठी Silwet किंवा Sure-shot @ ०.०५ ते ०.१ ml/L वापरावे [2].\n\nवापरण्यापूर्वी स्थानिक कृषी अधिकारी / KVK यांचा सल्ला घ्या.",
+  "answer": "* द्राक्षावरील भुरी रोगासाठी (powdery mildew) द्राक्षे पिकण्याच्या शेवटच्या ३० दिवसांत सल्फर ८० WDG @ १.० ते १.५ g/L फवारावे [2].\n* यासोबत Silwet किंवा Sure-shot @ ०.०५ ते ०.१ ml/L मिसळून फवारणी करावी जेणेकरून फळांवर डाग पडणार नाहीत [2].\n* जर ३० दिवसांपेक्षा कमी वेळ असेल, तर HP Grape Spray oil ५-७ ml/L फवारावे [1][2].\n* फवारणी करण्यापूर्वी काही झाडांवर तपासून पाहावे [1].\n\nवापरण्यापूर्वी स्थानिक कृषी अधिकारी / KVK यांचा सल्ला घ्या.",
   "sources": [
    {
     "id": 152,
@@ -97,7 +97,7 @@
  {
   "question": "हळदीची लागवड कधी करावी?",
   "lang": "mr-IN",
-  "answer": "* भारतात हळदीची लागवड साधारणपणे पावसाळ्याच्या पूर्वहंगामी सरी पडल्यानंतर करावी [1].\n* या काळात राज्यांनुसार वेळ बदलू शकतो [1].\n* लागवडीसाठी रोगमुक्त बियाणे वापरावे [2].\n* लागवडीपूर्वी बियाण्यांवर गरम पाणी किंवा सूर्यप्रकाशाने प्रक्रिया करावी [2].\n* चांगल्या वाढीसाठी ३० सेमी उंचीच्या गादीवाफे तयार करावेत [2].",
+  "answer": "* पावसाळ्याच्या आधी पडणाऱ्या पहिल्या सरींनंतर हळदीची लागवड करावी [1].\n* बियाण्यांसाठी १ महिना आधी rhizomes कापावे [1].\n* बियाण्यांवर P. fluorescens 10 g/kg आणि T. viride 4 g/Kg ची प्रक्रिया करावी [4].\n* बियाण्यांचे प्रमाण हेक्टरी 2,500 किलो असावे [4].\n* लागवडीसाठी 30 सेमी उंचीचे उंचवटे तयार करावेत [2].\n\nवापरण्यापूर्वी स्थानिक कृषी अधिकारी / KVK यांचा सल्ला घ्या.",
   "sources": [
    {
     "id": 236,
@@ -192,19 +192,8 @@
  {
   "question": "पीएम-किसान योजनेत किती रक्कम मिळते?",
   "lang": "mr-IN",
-  "answer": "* पीएम-किसान योजनेत वर्षाला ६००० रुपये मिळतात [1][3].\n* ही रक्कम तीन हप्त्यांमध्ये दिली जाते [3].\n* प्रत्येक हप्ता २००० रुपये असतो [3].\n* हे हप्ते एप्रिल-जुलै, ऑगस्ट-नोव्हेंबर आणि डिसेंबर-मार्च या काळात मिळतात [3].\n* हे पैसे आधार लिंक बँक खात्यात जमा होतात [3].",
+  "answer": "* पीएम-किसान योजनेत वर्षाला ६००० रुपये मिळतात [2].\n* ही रक्कम दर ४ महिन्यांनी २००० रुपये याप्रमाणे तीन हप्त्यांमध्ये मिळते [2].\n* ही मदत शेतकरी कुटुंबांच्या विविध शेती खर्चासाठी आणि घरगुती गरजांसाठी दिली जाते [3].",
   "sources": [
-   {
-    "id": 327,
-    "text": "2    PRADHAN MANTRI KISAN SAMMAN NIDHI (PM-KISAN) SCHEME    OPERATIONAL GUIDELINES        1. Scheme    With a view to provide income support to all landholding farmers’ families in the country,  having cultivable land, the Central Government has implemented a Central Sector  Scheme, namely, “Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)”. 2. Objective and Benefits    The scheme aims to supplement the financial needs of all landholding farmers’ families  in procuring various inputs to ensure proper crop health and appropriate yields,  commensurate with the anticipated farm income as well as for domestic needs.",
-    "file": "pmkisan_guidelines.pdf",
-    "title": "PM-KISAN Operational Guidelines",
-    "publisher": "Ministry of Agriculture & FW",
-    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
-    "crop": "scheme",
-    "page": 2,
-    "score": 0.8662921190261841
-   },
    {
     "id": 360,
     "text": "8    9. PM-Kisan Portal for implementation of the scheme (Beneficiary Details  uploading by State)    9.1  Beneficiaries under the scheme are to be identified by the respective State and  Union Territory. The details of farmers are being maintained by the States / UTs either  in electronic form or in manual register. To make integrated platform available in the  country to assist in benefit transfer, a platform named PM-Kisan Portal available at  URL (http://pmkisan.gov.in) has been be launched for uploading the farmers’ details  at a single web-portal in a uniform structure. 9.2  The PM-Kisan Portal has been created with the following objectives -  i)  To provide verified and single source of truth on farmers’ details at the portal.",
@@ -214,7 +203,7 @@
     "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
     "crop": "scheme",
     "page": 8,
-    "score": 0.8640487194061279
+    "score": 0.8763423562049866
    },
    {
     "id": 368,
@@ -225,7 +214,40 @@
     "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
     "crop": "scheme",
     "page": 10,
-    "score": 0.8602685332298279
+    "score": 0.8650432229042053
+   },
+   {
+    "id": 327,
+    "text": "2    PRADHAN MANTRI KISAN SAMMAN NIDHI (PM-KISAN) SCHEME    OPERATIONAL GUIDELINES        1. Scheme    With a view to provide income support to all landholding farmers’ families in the country,  having cultivable land, the Central Government has implemented a Central Sector  Scheme, namely, “Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)”. 2. Objective and Benefits    The scheme aims to supplement the financial needs of all landholding farmers’ families  in procuring various inputs to ensure proper crop health and appropriate yields,  commensurate with the anticipated farm income as well as for domestic needs.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 2,
+    "score": 0.863286554813385
+   },
+   {
+    "id": 348,
+    "text": "6    The list of such beneficiaries shall be subject to the exclusions under the  operational guidelines. 5.6  For identification of bona fide beneficiary under PM-Kisan Scheme in Jharkhand,  the following proposal of Government of Jharkhand was considered and approved by  the Committee:  “The farmer will be asked to submit ‘Vanshavali (Lineage)’ linked to the entry of land  record comprising his \\ her ancestor’s name giving a chart of successor. This lineage  chart shall be submitted before the Gram Sabha for calling objections. After approval of  the Gram Sabha, the village level \\ circle level revenue officials will verify and  authenticate the Vanshawali and possession of holding.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 6,
+    "score": 0.859070360660553
+   },
+   {
+    "id": 344,
+    "text": "Minister and the concerned  State Chief Ministers or their Ministerial representatives, based on the proposal by the  concerned North Eastern States. 5.5.1 For identification of bona fide beneficiary under PM-Kisan Scheme in Manipur, the  following proposal of Government of Manipur was considered and approved by the  Committee:    “The certificate issued by the Village authority, namely, the Chairman/Chief, authorizing  any tribal family to cultivate a piece of land, may be accepted. Such certification of  village Chairman/Chief shall be authenticated by the concerned sub-divisional officers.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 5,
+    "score": 0.856069028377533
    },
    {
     "id": 326,
@@ -236,18 +258,7 @@
     "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
     "crop": "scheme",
     "page": 1,
-    "score": 0.856708288192749
-   },
-   {
-    "id": 367,
-    "text": "10                  2. Farmers list as available on the portal shall be available at Block / Tehsil /  Taluka level official’s login. 3. Search facility will also be available to get details on Farmers by Name,  Aadhaar Number or Mobile Number in case PM-KISAN Portal data is being  used. Facility to add new farmers’ details shall be available, if details are not  found in the list. 4. The verified list shall be e-signed by the District level or block / tehsil / taluka  level officials as the case may be. The exclusion categories specified in  scheme guidelines also need to be taken care before e-signing the verified  farmers list. 5. The States Nodal Officer shall submit a district wise e-Signed list of farmers to  the Program Division of DAC&FW through PM-Kisan Portal.",
-    "file": "pmkisan_guidelines.pdf",
-    "title": "PM-KISAN Operational Guidelines",
-    "publisher": "Ministry of Agriculture & FW",
-    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
-    "crop": "scheme",
-    "page": 10,
-    "score": 0.8555152416229248
+    "score": 0.853843629360199
    },
    {
     "id": 345,
@@ -258,36 +269,25 @@
     "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
     "crop": "scheme",
     "page": 5,
-    "score": 0.8550959825515747
+    "score": 0.8535166382789612
    },
    {
-    "id": 331,
-    "text": "3    employees of the Local Bodies (Excluding Multi Tasking Staff / Class IV / Group  D employees)    iv) All superannuated / retired pensioners whose monthly pension is Rs.10,000/- or  more (Excluding Multi Tasking Staff / Class IV / Group D employees)    v) All Persons who paid Income Tax in last assessment year. vi) Professionals like Doctors, Engineers, Lawyers, Chartered Accountants, and  Architects registered with Professional bodies and carrying out profession by  undertaking practices. (c) In case of new beneficiaries being uploaded on the PM-KISAN Portal, all land  holding farmers’ families who are Non-resident Indians (NRIs) in terms of the provisions  of the Income Tax Act, 1961 shall be excluded from any benefit under the Scheme.",
+    "id": 367,
+    "text": "10                  2. Farmers list as available on the portal shall be available at Block / Tehsil /  Taluka level official’s login. 3. Search facility will also be available to get details on Farmers by Name,  Aadhaar Number or Mobile Number in case PM-KISAN Portal data is being  used. Facility to add new farmers’ details shall be available, if details are not  found in the list. 4. The verified list shall be e-signed by the District level or block / tehsil / taluka  level officials as the case may be. The exclusion categories specified in  scheme guidelines also need to be taken care before e-signing the verified  farmers list. 5. The States Nodal Officer shall submit a district wise e-Signed list of farmers to  the Program Division of DAC&FW through PM-Kisan Portal.",
     "file": "pmkisan_guidelines.pdf",
     "title": "PM-KISAN Operational Guidelines",
     "publisher": "Ministry of Agriculture & FW",
     "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
     "crop": "scheme",
-    "page": 3,
-    "score": 0.8523697257041931
-   },
-   {
-    "id": 362,
-    "text": "integration. iv)  Location wise availability of benefited farmers’ list. v)  Ease of monitoring across the country on fund transaction details. 9.3  PM-Kisan Portal :  The following farmer attributes need to be entered in the Portal:  Farmer Attributes: (Essential):   State, District, Sub-District/Block, Village, Farmer Name, Type of Identity – Aadhaar Number and in case Aadhaar not available, Aadhaar enrollment number  with any other ID proof like Voter ID etc, Gender, Category, IFSC Code, Bank  Account Number. Farmer Attributes (Optional):  Father name, Address, Mobile Number, Date of Birth/Age, Farm-Size in Hectare,  Survey Number, Khasra Number     Optional attributes such as Mobile number can be utilized for SMS alerts.",
-    "file": "pmkisan_guidelines.pdf",
-    "title": "PM-KISAN Operational Guidelines",
-    "publisher": "Ministry of Agriculture & FW",
-    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
-    "crop": "scheme",
-    "page": 8,
-    "score": 0.8518799543380737
+    "page": 10,
+    "score": 0.8508343696594238
    }
   ]
  },
  {
   "question": "हळदीवरील कंदकुज रोग कसा टाळावा?",
   "lang": "mr-IN",
-  "answer": "हळदीवरील कंदकुज रोग टाळण्यासाठी खालील उपाय करा:\n\n* रोगमुक्त कंदपे वापरा [1].\n* ३० सेमी उंचीच्या गादी वाफे तयार करा [1].\n* ३० दिवस शेतात पाणी साठवून ठेवा आणि उन्हाळ्यात ६० दिवस मातीचे सौरिकरण करा [1][7].\n* कंदपे ५१°C गरम पाण्यात १० मिनिटे बुडवून ठेवा किंवा ४८°C तापमानावर ३० मिनिटे उन्हात ठेवा [1][7].\n* कोबी आणि मोहरीच्या झाडांचा पाला वापरून जैव-धुरीकरण करा [1][7].\n* मका, कापूस किंवा सोयाबीनसोबत पीक फेरपालट करा [1].\n* शेताची स्वच्छता ठेवा आणि पाणी साचू देऊ नका [1][8].",
+  "answer": "हळदीवरील कंदकुज रोग टाळण्यासाठी खालील उपाय करा [1][8]:\n\n* रोगमुक्त कंद वापरून लागवड करा [1][8].\n* ३० सेमी उंच आणि ५० सेमी अंतराच्या गादी वाफे तयार करा [1].\n* पाणी साचू न देता पाण्याचा निचरा करा [8].\n* उन्हाळ्यात ६० दिवस शेतात मातीचे सौरिकरण करा [1][7].\n* पीक फेरपालट करा, जसे की मका किंवा सोयाबीन घ्या [1][7].\n* कंदांवर ५१°C गरम पाण्याची प्रक्रिया करा किंवा ४८°C तापमानात ३० मिनिटे उन्हात ठेवा [1][7].\n* कोबी आणि मोहरीच्या पेंढ्यांचा बायो-फ्युमिगेशन म्हणून वापर करा [1][7].",
   "sources": [
    {
     "id": 282,
@@ -382,7 +382,7 @@
  {
   "question": "कोल्हापूर भागात ऊस लागवड कोणत्या महिन्यात करावी?",
   "lang": "mr-IN",
-  "answer": "कोल्हापूर भागात डिसेंबर महिन्यात ऊस लागवड करावी [4]. तसेच, जानेवारी महिन्यात ऊस काढणी करणे फायदेशीर ठरते [4].\n\nअधिक माहितीसाठी स्थानिक कृषी अधिकारी किंवा KVK यांचा सल्ला घ्या.",
+  "answer": "कोल्हापूर भागात ऊस लागवड डिसेंबर महिन्यात करावी [4]. \n\n* डिसेंबर महिन्यात लागवड आणि जानेवारी महिन्यात काढणी फायदेशीर ठरते [4].\n* कोल्हापूर जिल्ह्यात ऊसाची सर्वाधिक वाढ आणि रिकव्हरी चांगली मिळते [1].",
   "sources": [
    {
     "id": 385,
@@ -475,9 +475,1149 @@
   ]
  },
  {
+  "question": "हळदीच्या सुधारित जाती कोणत्या आहेत?",
+  "lang": "mr-IN",
+  "answer": "हळदीच्या सुधारित जाती:\n\n* को-११९८३, बीएसआर-११९८६, कृष्णा, रोमा, सुरोमा, रंगा, रश्मी, मेघा, सुगणा, सुदर्शना [1]\n* IISR प्रभा, IISR प्रतिभा, राजेंद्र सोनिया, टेक्कूरपेट, सुगंधी, अमलपूरम, इरोड लोकल, सालेम, मूततुपुझा आणि लाकाडोंग [1]\n* महात्मा फुले कृषी विद्यापीठाने 'फुले हरिद्रा (KDT-3)' ही नवीन जात २०२२ मध्ये विकसित केली आहे [3]\n* 'फुले स्वरुपा' ही जात २००४ मध्ये सांगली जिल्ह्यातील कृषी संशोधन केंद्राने विकसित केली [7]\n* 'कृष्णा' ही जात १९८४ मध्ये सांगलीच्या कृषी संशोधन केंद्राने विकसित केली आहे [4]\n\nअधिक माहितीसाठी स्थानिक कृषी अधिकारी किंवा KVK यांचा सल्ला घ्या.",
+  "sources": [
+   {
+    "id": 231,
+    "text": "2    3. CULTIVARS AND VARIETIES  There are about 30 turmeric varieties grown in India. Among them varieties like  Alleppey and Madras (Perianadan) are of great commercial importance. Some of the  improved varieties and locally popular cultivars are: CO-11983, BSR-11986, Krishna, Roma,  Suroma, Ranga, Rasmi, Megha Turmeric-1, Suguna, Sudarshana, Suranjana, Duggirala,  Kodur, Suvarna, Varna, IISR Prabha, IISR Pratibha, Rajendra Sonia,Tekkurpet, Sugandham,  Amalapuram, Erode local, Salem, Moovattupuzha and Lakadong. The Lakadong variety of turmeric of the Jaintia Hills district of Meghalaya is  considered to be one of the world’s best varieties of turmeric with its curcumin content of  about 6.8 - 7.5 %.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 8,
+    "score": 0.9081516265869141
+   },
+   {
+    "id": 232,
+    "text": "Hills district of Meghalaya is  considered to be one of the world’s best varieties of turmeric with its curcumin content of  about 6.8 - 7.5 %. In the world, may be at some point of time this turmeric variety qualifies in  the Geographic Indicator List of India. Export Potential Varieties:  1. Lakadong  This variety is mainly cultivated at Meghalaya and it contains high  percentage of curcumin which is essential for medicinal uses. 2.Alleppey  Highly coloured variety. It is grown in Kerala and marketed as  Alleppey turmeric. 3.Duggirala  A long duration type (9 months), major variety of Andhra Pradesh. Rhizomes are bright yellow in colour. Grown mostly in Guntur district. 4.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 8,
+    "score": 0.8819506168365479
+   },
+   {
+    "id": 324,
+    "text": "Mahatma Phule Krishi Vidyapeeth, Rahuri  Information about Crop wise Improved / Hybrid Varieties Developed by University    ‘gmbmdJu¶ {nH$m§Mo gwYmarV d g§H$arV dmU    Turmeric - Phule Haridra (KDT-3)      Release year  2022  Name of Institute /  University  ARS, Kasbe Digraj (MPKV, Rahuri)  Soil type  Light to medium black soils under  irrigated condition  Climate  Annual Crop  Sowing Time / Planting  period  Second week of May  Seed Rate (Per ha)  25.00 q/ha (Rhizomes)  Crop duration  250-260 days  Productivity  Green turmeric 406.72 q/ha, Dry turmeric 93.56 q/ha  Characters / features  Erect growth habit, Better tillering ratio (2.3), Deep orange  yellow core colour of fingers, Long and straight fingers, High  percentage of curcumin (5.35%), Better recovery (23.0%), Deep  yellow colour of turmeric powder with pleasant aroma",
+    "file": "mpkv_spices_varieties.pdf",
+    "title": "Improved varieties of spice crops",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/14-Masalavargiya_20230913125628.pdf",
+    "crop": "turmeric",
+    "page": 3,
+    "score": 0.8751847743988037
+   },
+   {
+    "id": 320,
+    "text": "Mahatma Phule Krishi Vidyapeeth, Rahuri  Information about Crop wise Improved / Hybrid Varieties Developed by University    ‘gmbmdJu¶ {nH$m§Mo gwYmarV d g§H$arV dmU    Turmeric – Krishna      Release year  1984  Name of Institute/  University  Turmeric  Research  Scheme,  Agril. Research Station, K. Digraj, Tah. Miraj,  Dist. Sangli. Soil type  Medium black, well drained, pH range : 6.5- 7.5  Climate  Hot & humid climate is ideal for growth,  medium rainfall and clear sunlight are  necessary for growth. Av.",
+    "file": "mpkv_spices_varieties.pdf",
+    "title": "Improved varieties of spice crops",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/14-Masalavargiya_20230913125628.pdf",
+    "crop": "turmeric",
+    "page": 1,
+    "score": 0.8743926286697388
+   },
+   {
+    "id": 233,
+    "text": "A long duration type (9 months), major variety of Andhra Pradesh. Rhizomes are bright yellow in colour. Grown mostly in Guntur district. 4. PROPAGATION AND PLANTING  Healthy and disease free rhizomes with whole or split mother and finger rhizomes are  used for planting. Seed treatment with P. fluorescens 10 g/kg and T. viride as 4 g/ Kg. A seed  rate of 2,500 kg of rhizomes is required for planting one hectare of turmeric. Though transplanting in turmeric is not conventional, it is found profitable. A  transplanting technique in turmeric by using single bud sprouts (about 5 g) has been  standardized to produce good quality planting material with reduced cost.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 8,
+    "score": 0.8710058927536011
+   },
+   {
+    "id": 315,
+    "text": "turmeric influences the price of the produce. Hence,  to obtain attractive product, turmeric powder is sprinkled during the last phase of  polishing. Cleaning, Grading, Packing and Storage  - Although Indian turmeric is considered to be the best in the world, about 90% of  the total produce is consumed internally and only a small portion of the production  is exported. - Turmeric of commerce is described in three ways:  - Fingers: These are the lateral branches or secondary ‘daughter’ rhizomes which  are detached from the central rhizome before curing. Fingers usually range in size  from 2.5 to 7.5 cm in length and may be over 1 cm in diameter. - Bulbs: These are central ‘mother’ rhizomes, which are ovate in shape and are of  shorter length and having larger diameter than the fingers.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 41,
+    "score": 0.8707229495048523
+   },
+   {
+    "id": 322,
+    "text": "Mahatma Phule Krishi Vidyapeeth, Rahuri  Information about Crop wise Improved / Hybrid Varieties Developed by University    ‘gmbmdJu¶ {nH$m§Mo gwYmarV d g§H$arV dmU    Turmeric - Phule Swarupa      Release year  2004  Name of Institute/  University  Turmeric  Research  Scheme,  Agril. Research Station, K. Digraj, Tah. Miraj,  Dist. Sangli. Soil type  Medium black, well drained, pH range :  6.5-7.5  Climate  Hot & humid climate is ideal for growth,  medium rainfall and clear sunlight are  necessary for growth. Av.",
+    "file": "mpkv_spices_varieties.pdf",
+    "title": "Improved varieties of spice crops",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/14-Masalavargiya_20230913125628.pdf",
+    "crop": "turmeric",
+    "page": 2,
+    "score": 0.8699837327003479
+   },
+   {
+    "id": 228,
+    "text": "1    1. INTRODUCTION  Turmeric (Curcuma longa L.) is a rhizomatous herb, and grows up to a height of three  to five feet usually with 7 to 12 leaves, the leaf sheaths forms the pseudo stem which is  cultivated extensively in Asia, India, China, and other countries with a tropical climate. It has  been used for thousands of years as a remedy in the traditional Indian and folk medicine for  the cure of a large variety of illnesses like inflammation, infectious diseases and gastric,  hepatic and blood disorders. Turmeric is used to flavour and to colour foodstuffs. It is a  principal ingredient in curry powder. The aqueous extract has bio-pesticidal properties.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 7,
+    "score": 0.8694871068000793
+   }
+  ]
+ },
+ {
+  "question": "अंगूर में भुरी (पाउडरी मिल्ड्यू) रोग का उपाय क्या है?",
+  "lang": "hi-IN",
+  "answer": "* अंगूर में भुरी (पाउडरी मिल्ड्यू) के लिए आखिरी 30 दिन में सल्फर 80 WDG @ 1.0 से 1.5 g/L का स्प्रे करें [2]।\n* 30 दिन से कम समय बचा हो तो HP Grape Spray Oil 5–7 ml/L का स्प्रे करें [1][2]।\n* आखिरी 30 दिन में एज़ोक्सिस्ट्रोबिन (azoxystrobin) जैसे फंगीसाइड का इस्तेमाल करें [3]।\n* अगर बीमारी दिखे तो पोटेशियम बाइकार्बोनेट 5 kg/ha और सिस्टमैटिक फंगीसाइड का टैंक मिक्स स्प्रे करें [6]।\n* मानसून के बाद सल्फर 80 WDG @ 2.0 g/L और 0.5% बोर्डो मिश्रण का स्प्रे करें [7]।\n\nउपयोग से पहले स्थानीय कृषि अधिकारी / KVK से सलाह लें।",
+  "sources": [
+   {
+    "id": 152,
+    "text": "(HP  Grape Spray oil 5 – 7 ml / L) can be used as spray on  bunches for the control of powdery mildew without the risk  of objectionable residue. Before application of any formulation few days before  harvest it is advised to try the formulation first on few  plants and if any spot or similar abnormality is not seen  on berries the formulation can be used for spraying entire  vineyard.",
+    "file": "GAPTableGrapes.pdf",
+    "title": "Good Agricultural Practices for Production of Quality Table Grapes",
+    "publisher": "ICAR-NRC for Grapes, Pune",
+    "url": "https://nrcgrapes.icar.gov.in/sites/default/files/publications/GAPTableGrapes18Feb2013.pdf",
+    "crop": "grapes",
+    "page": 43,
+    "score": 0.8908827304840088
+   },
+   {
+    "id": 151,
+    "text": "days, and MRL as high as 2.0  ppm. Hence such fungicide can be used for control of  powdery mildew on bunches during last 30 days of berry  maturity. Spray of sulphur 80 WDG @ 1.0 to 1.5 g / L can be given  during last 20 to 30 days of berry maturity for the control  of powdery mildew. Such sprays can be given alongwith  good quality spreaders (Silwet or Sure-shot @ 0.05 to 0.1  ml / L) to avoid stains on berries. If less than 30 days are left application of mineral oils (HP  Grape Spray oil 5 – 7 ml / L) can be used as spray on  bunches for the control of powdery mildew without the risk  of objectionable residue.",
+    "file": "GAPTableGrapes.pdf",
+    "title": "Good Agricultural Practices for Production of Quality Table Grapes",
+    "publisher": "ICAR-NRC for Grapes, Pune",
+    "url": "https://nrcgrapes.icar.gov.in/sites/default/files/publications/GAPTableGrapes18Feb2013.pdf",
+    "crop": "grapes",
+    "page": 43,
+    "score": 0.8774175643920898
+   },
+   {
+    "id": 150,
+    "text": "Good Agricultural Practices for Production of Quality Table Grapes  37  Days after  pruning or growth  stage  Control measure for disease  stages. Use of flusilazole should be avoided after fruit set,  while fungicides such as penconazole, and tridemefon  should be selected up to first 80 days of pruning and  hexaconazole or myclobutanil should be preferred close to  veraison stage. 75 to 90 days  Powdery mildew on bunches or rachis  Spray of strabularin fungicides such as azoxystrobin,  which has PHI as low as 7 days, and MRL as high as 2.0  ppm. Hence such fungicide can be used for control of  powdery mildew on bunches during last 30 days of berry  maturity.",
+    "file": "GAPTableGrapes.pdf",
+    "title": "Good Agricultural Practices for Production of Quality Table Grapes",
+    "publisher": "ICAR-NRC for Grapes, Pune",
+    "url": "https://nrcgrapes.icar.gov.in/sites/default/files/publications/GAPTableGrapes18Feb2013.pdf",
+    "crop": "grapes",
+    "page": 43,
+    "score": 0.8733668327331543
+   },
+   {
+    "id": 134,
+    "text": "potassium bicarbonate 5.0 g/L. August to October Downy mildew, Anthracnose, Rust & Powdery Mildew. Rub off new sprouts emerging after rains. Prefer  spraying  non-systemic  fungicides  (Bordeaux  Mixture, copper hydroxide, COC etc.) for the control of  downy mildew, rust and anthracnose if disease is present  on old leaves. Spray Sulphur 80 WDG @ 2 g/L. plus Bordeaux mixture  0.5%, if both downy mildew and powdery mildew infection  is present  Use of copper fungicides mentioned above should control  rust disease also. In case if the disease is found to  increase, spray systemic fungicides such as, flusilazole  40EC @ 0.025 ml / L. Spray mineral oil formulation such as HP grape spray oil  @ 5.0 to 10 ml/L. Such spray oils are not compatible with  sulphur and copper fungicides, and captan.",
+    "file": "GAPTableGrapes.pdf",
+    "title": "Good Agricultural Practices for Production of Quality Table Grapes",
+    "publisher": "ICAR-NRC for Grapes, Pune",
+    "url": "https://nrcgrapes.icar.gov.in/sites/default/files/publications/GAPTableGrapes18Feb2013.pdf",
+    "crop": "grapes",
+    "page": 39,
+    "score": 0.8673892617225647
+   },
+   {
+    "id": 145,
+    "text": "36   Good Agricultural Practices for Production of Quality Table Grapes    Days after  pruning or growth  stage  Control measure for disease  in the morning hours, downy mildew may appear only on  bunches, and cause flower drop, or complete destruction of  bunch. Infection on leaves under such situation may be nil  or minimum. About two preventive sprays of systemic  fungicides for the control of downy mildew, at 5 days  interval are essentially needed during this period. Powdery mildew    Cloudy conditions will start the development of powdery  mildew during this period. As most growers are more  worried about downy mildew infection during this period,  light infections of powdery mildew could be un-noticed.",
+    "file": "GAPTableGrapes.pdf",
+    "title": "Good Agricultural Practices for Production of Quality Table Grapes",
+    "publisher": "ICAR-NRC for Grapes, Pune",
+    "url": "https://nrcgrapes.icar.gov.in/sites/default/files/publications/GAPTableGrapes18Feb2013.pdf",
+    "crop": "grapes",
+    "page": 42,
+    "score": 0.8669649958610535
+   },
+   {
+    "id": 148,
+    "text": "about 50 days of pruning. Spray interval can be decided on  the basis of weather conditions or actual presence or  absence of disease in vineyards. Whenever powdery mildew infection is seen in vineyard  spray of tank mix of regular dose of systemic fungicide and  potassium bi carbonate 5 kg / ha is useful to eradicate left  over powdery infections. Between two sprays of systemic fungicides non-systemic  fungicide dinocap 48 EC @ 25 ml/100 lit water can be  sprayed up to 65-70 days after pruning. Most of the fungicides for the control of powdery mildew  are given after fruit set.",
+    "file": "GAPTableGrapes.pdf",
+    "title": "Good Agricultural Practices for Production of Quality Table Grapes",
+    "publisher": "ICAR-NRC for Grapes, Pune",
+    "url": "https://nrcgrapes.icar.gov.in/sites/default/files/publications/GAPTableGrapes18Feb2013.pdf",
+    "crop": "grapes",
+    "page": 42,
+    "score": 0.863213300704956
+   },
+   {
+    "id": 132,
+    "text": "Good Agricultural Practices for Production of Quality Table Grapes  33  Days after  pruning or growth  stage  Control measure for disease  0.25 to 0.30 ml / L or Potassium bi carbonate @ 10 g/L . Use spreaders (Silwet or Sure-shot ) @ 0.1 to 0.2 ml / L for  better efficiency of above fungicides  Do not spray Dinocap if tender shoots are present in  canopy. At the end of July especially after the onset of monsoon  downy mildew and powdery mildew can be present  together in vineyards. In such situations, mixture of  sulphur 80WDG @ 2.0 g / L and 0.5 % Bordeaux mixture  can be sprayed. The pH of the Bordeaux mixture should  be adjusted after the mixing of sulphur.",
+    "file": "GAPTableGrapes.pdf",
+    "title": "Good Agricultural Practices for Production of Quality Table Grapes",
+    "publisher": "ICAR-NRC for Grapes, Pune",
+    "url": "https://nrcgrapes.icar.gov.in/sites/default/files/publications/GAPTableGrapes18Feb2013.pdf",
+    "crop": "grapes",
+    "page": 39,
+    "score": 0.8630162477493286
+   },
+   {
+    "id": 109,
+    "text": "28   Good Agricultural Practices for Production of Quality Table Grapes      Downy mildew, powdery mildew  and  anthracnose  are  the  three  important diseases caused by fungal  pathogens and require warm and wet  /  humid  conditions  for  causing  infections. During monsoon, downy  mildew and anthracnose are the  major diseases noticed on the leaves,  while powdery mildew appears when  there is a long gap of rain with cloudy  conditions. Sometimes, rust infection  also occurs on old leaves especially  during September. From April to first week of June  usually  the climate  is  hot  with  temperature ranging from 35-40oC  and dry with relative humidity > 40%,  hence there is least possibility of  development of any disease.",
+    "file": "GAPTableGrapes.pdf",
+    "title": "Good Agricultural Practices for Production of Quality Table Grapes",
+    "publisher": "ICAR-NRC for Grapes, Pune",
+    "url": "https://nrcgrapes.icar.gov.in/sites/default/files/publications/GAPTableGrapes18Feb2013.pdf",
+    "crop": "grapes",
+    "page": 34,
+    "score": 0.861099123954773
+   }
+  ]
+ },
+ {
+  "question": "हल्दी की बुवाई कब करनी चाहिए?",
+  "lang": "hi-IN",
+  "answer": "* हल्दी की बुवाई मानसून की पहली बारिश के ठीक बाद करनी चाहिए [1]।\n* बुवाई के लिए बीज के रूप में 5-7 ग्राम वजन वाले 1 कली वाले टुकड़ों का इस्तेमाल करें [1]।\n* बुवाई से एक महीने पहले बीज को नम पुआल के नीचे रखकर अंकुरित कर लें [1]।\n* बुवाई के लिए 30 सेमी ऊंचे क्यारियों का उपयोग करें [3]।\n* बुवाई का सही समय हर राज्य में अलग-अलग होता है [1]।",
+  "sources": [
+   {
+    "id": 236,
+    "text": "rhizomes for seed purpose  - One month before planting, the seed rhizomes are cut into single buds with small  piece of rhizomes weighing 5-7 g. - Fill the pro-trays (98 well) with nursery medium containing partially decomposed  coir pith and vermi compost (75:25), enriched with PGPR/Trichoderma 10g/kg of  mixture  - Plant the turmeric bud sprouts in pro-trays  - Maintain the pro-trays under shade net house  - Adopt need based irrigation with rose can or by using suitable sprinklers  - Seedlings will be ready within 30-35 days for transplanting  The turmeric seeds are often kept beneath moist straw and left for sprouting before  sowing. The planting time in India, is typically just after the pre-monsoon showers. This  period varies from state to state.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 9,
+    "score": 0.8898545503616333
+   },
+   {
+    "id": 311,
+    "text": "34    Post Harvest Processing  - The harvested turmeric rhizomes before entering into the market is converted into  a stable commodity through a number of post harvest processing operations like  boiling, drying and polishing. - Boiling of turmeric is taken up within 3 or 4 days after harvest. - The fingers and bulbs (or mother rhizomes) are separated and are cured  separately, since the latter take a little longer to cook. - The dry recovery of the different turmeric varieties vary widely ranging from 19  to 23%. Drying  - The cooked fingers are dried in the sun by spreading in 5-7 cm thick layers on the  drying floor. - A thin layer is not desirable, as the colour of dried product may be adversely  affected. - It may take 10-15 days for the rhizome to become completely dry.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 40,
+    "score": 0.8887321949005127
+   },
+   {
+    "id": 282,
+    "text": "23    Management    Different management practices should be followed during the crop stages of  turmeric. - Use of resistant varieties for rhizome rot. - Crop rotation with maize, cotton, soybean. - Planting of disease-free seed rhizomes. - Use raised beds of 30 cm height. - Flooding treatment for 30 days, soil solarisation during hottest months for 60  days  - Treat the rhizomes with hot water at 51° C for 10 minutes. - Rhizomes treatment can be done by keeping them under clear polythene sheet  under direct sunlight for raising the temperature 48o C for 30 minutes. - Use bio-fumigation using cabbage and mustard plant refuses. - Use raised beds of 15-30 cm height, 1 m width and of convenient length may be  prepared giving at least 50 cm spacing between beds.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 29,
+    "score": 0.8842849731445312
+   },
+   {
+    "id": 297,
+    "text": "- It spreads from vulnerable plants  - The disease is favoured by 35 °C soil temperature, 15-20 percent soil moisture  andalluvial or sandy soils. Management  - Field sanitation should be practiced. - Follow crop rotation with cereal and legume crops reduce the inoculum build up. Dry rot of turmeric",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 35,
+    "score": 0.8695570826530457
+   },
+   {
+    "id": 220,
+    "text": "IPM Package of Practices for Turmeric  (For producing quality turmeric for export)                              Government of India  Ministry of Agriculture & Farmer’s Welfare  Department of Agriculture & Farmer’s Welfare  Directorate of Plant Protection Quarantine & Storage  NH-IV, Faridabad  April, 2022",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 1,
+    "score": 0.8695135116577148
+   },
+   {
+    "id": 230,
+    "text": "Maximum area under turmeric cultivation and  production is in Telangana state followed by Karnataka, Andhra Pradesh, Maharashtra and  Tamil Nadu. 2. CLIMATIC AND SOIL REQUIREMENTS  Turmeric can be grown in diverse tropical conditions from sea level to 1500 m above  sea level, at a temperature range of 20-35˚C with an annual rainfall of 1500 mm or more,  under rainfed or irrigated conditions. Though it can be grown on different types of soils, it  thrives best in well-drained sandy or clay loam soils with a pH range of 4.5-7.5 with good  organic status. The crop cannot stand water logging or alkalinity.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 7,
+    "score": 0.8677041530609131
+   },
+   {
+    "id": 314,
+    "text": "35    - In order to impart attractive yellow colour, turmeric suspension in water is added  to the polishing drum in the last 10 minutes. - Composition of emulsion for colour coating of 100kg of half boiled turmeric is  Alum 0.04kg, turmeric powder 2kg, castor seed oil 0.14kg, sodium bisulphate  30g, concentrated hydrochloric acid 30ml. - When the rhizomes are uniformly coated with suspension, they may be dried in  the sun. - The colour of the processed turmeric influences the price of the produce. Hence,  to obtain attractive product, turmeric powder is sprinkled during the last phase of  polishing.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 41,
+    "score": 0.8675605058670044
+   },
+   {
+    "id": 324,
+    "text": "Mahatma Phule Krishi Vidyapeeth, Rahuri  Information about Crop wise Improved / Hybrid Varieties Developed by University    ‘gmbmdJu¶ {nH$m§Mo gwYmarV d g§H$arV dmU    Turmeric - Phule Haridra (KDT-3)      Release year  2022  Name of Institute /  University  ARS, Kasbe Digraj (MPKV, Rahuri)  Soil type  Light to medium black soils under  irrigated condition  Climate  Annual Crop  Sowing Time / Planting  period  Second week of May  Seed Rate (Per ha)  25.00 q/ha (Rhizomes)  Crop duration  250-260 days  Productivity  Green turmeric 406.72 q/ha, Dry turmeric 93.56 q/ha  Characters / features  Erect growth habit, Better tillering ratio (2.3), Deep orange  yellow core colour of fingers, Long and straight fingers, High  percentage of curcumin (5.35%), Better recovery (23.0%), Deep  yellow colour of turmeric powder with pleasant aroma",
+    "file": "mpkv_spices_varieties.pdf",
+    "title": "Improved varieties of spice crops",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/14-Masalavargiya_20230913125628.pdf",
+    "crop": "turmeric",
+    "page": 3,
+    "score": 0.8666906356811523
+   }
+  ]
+ },
+ {
+  "question": "पीएम-किसान योजना में कितनी राशि मिलती है?",
+  "lang": "hi-IN",
+  "answer": "* पीएम-किसान योजना में हर साल 6000 रुपये मिलते हैं [2]।\n* यह पैसा तीन किस्तों में आता है [2]।\n* हर किस्त 2000 रुपये की होती है [2]।\n* यह पैसा हर 4 महीने में मिलता है [2]।\n* पहली किस्त अप्रैल-जुलाई, दूसरी अगस्त-नवंबर और तीसरी दिसंबर-मार्च के बीच आती है [2]।",
+  "sources": [
+   {
+    "id": 360,
+    "text": "8    9. PM-Kisan Portal for implementation of the scheme (Beneficiary Details  uploading by State)    9.1  Beneficiaries under the scheme are to be identified by the respective State and  Union Territory. The details of farmers are being maintained by the States / UTs either  in electronic form or in manual register. To make integrated platform available in the  country to assist in benefit transfer, a platform named PM-Kisan Portal available at  URL (http://pmkisan.gov.in) has been be launched for uploading the farmers’ details  at a single web-portal in a uniform structure. 9.2  The PM-Kisan Portal has been created with the following objectives -  i)  To provide verified and single source of truth on farmers’ details at the portal.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 8,
+    "score": 0.8534427881240845
+   },
+   {
+    "id": 368,
+    "text": "list. 5. The States Nodal Officer shall submit a district wise e-Signed list of farmers to  the Program Division of DAC&FW through PM-Kisan Portal. 10  Modalities for transfer of benefit    10.1 The financial benefit of Rs.6000/- per year is to be released to the eligible  farmers in three installments of Rs.2000/- each every 4-month / trimester, i.e. April-July,  August-November and December-March. 10.2 The Scheme is being implemented through an Aadhaar linked electronic data  base containing details of all members of the families of the farmers whose names  appear in the land records.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 10,
+    "score": 0.8473595380783081
+   },
+   {
+    "id": 327,
+    "text": "2    PRADHAN MANTRI KISAN SAMMAN NIDHI (PM-KISAN) SCHEME    OPERATIONAL GUIDELINES        1. Scheme    With a view to provide income support to all landholding farmers’ families in the country,  having cultivable land, the Central Government has implemented a Central Sector  Scheme, namely, “Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)”. 2. Objective and Benefits    The scheme aims to supplement the financial needs of all landholding farmers’ families  in procuring various inputs to ensure proper crop health and appropriate yields,  commensurate with the anticipated farm income as well as for domestic needs.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 2,
+    "score": 0.846469521522522
+   },
+   {
+    "id": 362,
+    "text": "integration. iv)  Location wise availability of benefited farmers’ list. v)  Ease of monitoring across the country on fund transaction details. 9.3  PM-Kisan Portal :  The following farmer attributes need to be entered in the Portal:  Farmer Attributes: (Essential):   State, District, Sub-District/Block, Village, Farmer Name, Type of Identity – Aadhaar Number and in case Aadhaar not available, Aadhaar enrollment number  with any other ID proof like Voter ID etc, Gender, Category, IFSC Code, Bank  Account Number. Farmer Attributes (Optional):  Father name, Address, Mobile Number, Date of Birth/Age, Farm-Size in Hectare,  Survey Number, Khasra Number     Optional attributes such as Mobile number can be utilized for SMS alerts.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 8,
+    "score": 0.8375686407089233
+   },
+   {
+    "id": 344,
+    "text": "Minister and the concerned  State Chief Ministers or their Ministerial representatives, based on the proposal by the  concerned North Eastern States. 5.5.1 For identification of bona fide beneficiary under PM-Kisan Scheme in Manipur, the  following proposal of Government of Manipur was considered and approved by the  Committee:    “The certificate issued by the Village authority, namely, the Chairman/Chief, authorizing  any tribal family to cultivate a piece of land, may be accepted. Such certification of  village Chairman/Chief shall be authenticated by the concerned sub-divisional officers.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 5,
+    "score": 0.8351974487304688
+   },
+   {
+    "id": 345,
+    "text": "a piece of land, may be accepted. Such certification of  village Chairman/Chief shall be authenticated by the concerned sub-divisional officers. All the exclusions under the Operational Guidelines will be applicable.”    5.5.2 For identification of bona fide beneficiary under PM-Kisan Scheme in Nagaland,  the following procedure was approved by the Committee:  1) In case of community owned cultivable land in the state of Nagaland which is  under permanent cultivation, for identification of beneficiaries under PM-KISAN,  the certificate issued by the village council/authority/village chieftan regarding  land holding, duly verified by the administrative head of the circle/sub-division  and countersigned by the Deputy Commissioner of the District shall suffice  subject to the exclusions under the operational guidelines.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 5,
+    "score": 0.834307074546814
+   },
+   {
+    "id": 348,
+    "text": "6    The list of such beneficiaries shall be subject to the exclusions under the  operational guidelines. 5.6  For identification of bona fide beneficiary under PM-Kisan Scheme in Jharkhand,  the following proposal of Government of Jharkhand was considered and approved by  the Committee:  “The farmer will be asked to submit ‘Vanshavali (Lineage)’ linked to the entry of land  record comprising his \\ her ancestor’s name giving a chart of successor. This lineage  chart shall be submitted before the Gram Sabha for calling objections. After approval of  the Gram Sabha, the village level \\ circle level revenue officials will verify and  authenticate the Vanshawali and possession of holding.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 6,
+    "score": 0.8332337737083435
+   },
+   {
+    "id": 367,
+    "text": "10                  2. Farmers list as available on the portal shall be available at Block / Tehsil /  Taluka level official’s login. 3. Search facility will also be available to get details on Farmers by Name,  Aadhaar Number or Mobile Number in case PM-KISAN Portal data is being  used. Facility to add new farmers’ details shall be available, if details are not  found in the list. 4. The verified list shall be e-signed by the District level or block / tehsil / taluka  level officials as the case may be. The exclusion categories specified in  scheme guidelines also need to be taken care before e-signing the verified  farmers list. 5. The States Nodal Officer shall submit a district wise e-Signed list of farmers to  the Program Division of DAC&FW through PM-Kisan Portal.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 10,
+    "score": 0.8300564289093018
+   }
+  ]
+ },
+ {
+  "question": "हल्दी में कंद सड़न रोग से कैसे बचें?",
+  "lang": "hi-IN",
+  "answer": "हल्दी में कंद सड़न रोग से बचने के लिए ये उपाय करें:\n\n* रोग मुक्त बीज वाले कंदों का उपयोग करें [1]।\n* 30 से 60 दिन तक खेत में पानी भरकर रखें [1]।\n* गर्म महीनों में 60 दिन तक मिट्टी को धूप से गर्म करें [1]।\n* कंदों को 51°C पर 10 मिनट तक गर्म पानी से उपचारित करें [1]।\n* पत्तागोभी और सरसों के अवशेषों से जैविक धुआं दें [1]।",
+  "sources": [
+   {
+    "id": 282,
+    "text": "23    Management    Different management practices should be followed during the crop stages of  turmeric. - Use of resistant varieties for rhizome rot. - Crop rotation with maize, cotton, soybean. - Planting of disease-free seed rhizomes. - Use raised beds of 30 cm height. - Flooding treatment for 30 days, soil solarisation during hottest months for 60  days  - Treat the rhizomes with hot water at 51° C for 10 minutes. - Rhizomes treatment can be done by keeping them under clear polythene sheet  under direct sunlight for raising the temperature 48o C for 30 minutes. - Use bio-fumigation using cabbage and mustard plant refuses. - Use raised beds of 15-30 cm height, 1 m width and of convenient length may be  prepared giving at least 50 cm spacing between beds.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 29,
+    "score": 0.8963203430175781
+   },
+   {
+    "id": 297,
+    "text": "- It spreads from vulnerable plants  - The disease is favoured by 35 °C soil temperature, 15-20 percent soil moisture  andalluvial or sandy soils. Management  - Field sanitation should be practiced. - Follow crop rotation with cereal and legume crops reduce the inoculum build up. Dry rot of turmeric",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 35,
+    "score": 0.8938360810279846
+   },
+   {
+    "id": 265,
+    "text": "later they congregate near the growing buds. - When the infestation is severe the rhizome and buds shrivel and ultimately the  entire rhizome dries. Management  - Discard and do not store severely infested rhizomes  - Collect and destroy damaged leaves  - Select healthy rhizomes free from scale infestation for seed material  - Application of well rotten sheep manure @ 10 t/ha in two splits (once basally and  other at earthing up) or Poultry manure in 2 splits can control the insect. Damage rhizome   Scale insect on  Source:http://eagri.org/eagri50/ENTO331/lecture27/turmeric/002.html  Source:http://krishiexpert.com/articles/Insect-Pests_com- August2017.pdf",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 20,
+    "score": 0.8932286500930786
+   },
+   {
+    "id": 281,
+    "text": "color changes into different shades of brown  Disease Development  - The disease is soil-borne. The fungus multiplies with buildup of soil moisture. - The fungus can survive in two ways: (a) in diseased rhizomes kept for sowing  and (b) through resting structures like chlamydospores and oospores that reach  the soil from infected rhizomes. - Younger sprouts are the most susceptible to the pathogen. Nematode infestation  aggravates rhizome rot disease. - Temperature above 30° C and high soil moisture are the important predisposing  factors favouring the disease. - Water logging in the field due to poor drainage increases the intensity of the  disease. Source: https://www.invasive.org/browse/detail.cfm?imgnum=5542832  Rhizome rot symptoms on turmeric leaves and  rhizome  Disease cycle",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 28,
+    "score": 0.8832799792289734
+   },
+   {
+    "id": 295,
+    "text": "Ralstonia solanacearum. - Rhizome treatment with hot water 47˚ C for 3 minutes. - Use bio-fumigation using cabbage and mustard plant refuses. - Avoid over irrigation, and flood irrigation in disease affected areas. - It is sensitive to high pH (alkaline soils). 10.5 Dry Rot (Rhizoctonia bataticola)  Symptoms  - The disease causes root rot and rhizome rot resulting in typical dry rot of  rhizomes from October onwards.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 34,
+    "score": 0.8806960582733154
+   },
+   {
+    "id": 294,
+    "text": "28        Bacterial wilt symptoms of turmeric  Disease cycle  **https://link.springer.com/article/10.1007/s10327-015-0596-9  Disease Development:  - The bacterium is especially destructive in moist soils at temperatures above 24°  C. - High soil temperature and moisture are favourable for disease. Management  - Soil solarisation for 60 days during summer  - Planting of disease-free seed rhizomes. - Use crop rotation with non-host crops like ragi, paddy, maize, sorghum etc. - Avoid crop rotation with tomato, potato, chillies, brinjal and peanut, as these  plants are hosts for the wilt pathogen Ralstonia solanacearum. - Rhizome treatment with hot water 47˚ C for 3 minutes. - Use bio-fumigation using cabbage and mustard plant refuses.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 34,
+    "score": 0.8760576248168945
+   },
+   {
+    "id": 280,
+    "text": "22    - Encourage the natural predator like barn owls by establishing barn owl perches in  field. - Apply 2% Zinc phosphide poison baits (96 parts of broken rice + 2 parts of  edible oil + 2 parts of 98% ZnP) when the rodent infestation is very high. 10. INTEGRATED DISEASES MANAGEMENT (For Major Diseases)  10.1 Rhizome Rot (Pythium aphanidermatum)  Symptoms  - In infected plants, basal portion of the shoots appear watery and soft. - The root system is very much reduced  - The leaves exhibit gradual drying along the margin  - Infected rhizomes soft, rotted, color changes into different shades of brown  Disease Development  - The disease is soil-borne. The fungus multiplies with buildup of soil moisture.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 28,
+    "score": 0.8716455698013306
+   },
+   {
+    "id": 233,
+    "text": "A long duration type (9 months), major variety of Andhra Pradesh. Rhizomes are bright yellow in colour. Grown mostly in Guntur district. 4. PROPAGATION AND PLANTING  Healthy and disease free rhizomes with whole or split mother and finger rhizomes are  used for planting. Seed treatment with P. fluorescens 10 g/kg and T. viride as 4 g/ Kg. A seed  rate of 2,500 kg of rhizomes is required for planting one hectare of turmeric. Though transplanting in turmeric is not conventional, it is found profitable. A  transplanting technique in turmeric by using single bud sprouts (about 5 g) has been  standardized to produce good quality planting material with reduced cost.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 8,
+    "score": 0.8715882301330566
+   }
+  ]
+ },
+ {
+  "question": "कोल्हापुर क्षेत्र में गन्ने की बुवाई किस महीने में करें?",
+  "lang": "hi-IN",
+  "answer": "कोल्हापुर में गन्ने की बुवाई दिसंबर महीने में करें [6]। इससे फसल को बहुत फायदा होता है। बुवाई के बाद जनवरी में कटाई करना भी अच्छा रहता है [6]।",
+  "sources": [
+   {
+    "id": 385,
+    "text": "November to February. In Maharashtra Sugarcane is majorly cultivated in Western and Central regions. The major districts under Sugarcane cultivation are Kolhapur, Satara, Sangli, Pune,  Solapur, Ahmednagar, Nashik and Aurangabad. The highest recovery of Sugarcane is  obtained in Kolhapur district due favourable weather situation for Sugarcane growth. The Sugarcane mostly in western area is cultivated in Suru and Preseason season. In  other area adsali or midseason cultivation in followed mostly in Solapur, Ahmednagar  and Pune districts. All India Coordinated Research Project on Sugarcane is serving the Nation by  coordinating research work on sugarcane since 1970 through a network of sugarcane  research stations of ICAR, State Agricultural Universities, State Govt.",
+    "file": "aicrp_sugarcane_kolhapur.pdf",
+    "title": "AICRP on Sugarcane - Regional Sugarcane and Jaggery Research Station, Kolhapur",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/17.%20AICRP%20on%20Sugarcane_20250916024750.pdf",
+    "crop": "sugarcane",
+    "page": 2,
+    "score": 0.8950622081756592
+   },
+   {
+    "id": 395,
+    "text": "40 % at 6th week,  10% at 10th week and 40 % at 14th week at the time of earthing up + two splits  equal of 115 kg P2O5 and 115 K2O per hacter ie. Half at planting and half at  earthing-up are recommended for obtaining maximum cane, CCS yield under suru  condition for Co 8014 and Co 86032 varieties. 9. Future roadmap of research    The mandated research programme of Crop Improvement and Crop Production  discipline is being conducted every year. In Kolhapur and Sangli districts, more than 30  to 40 % Sugarcane cultivated alongside river is heavily damaged every rainy season due  to frequent flood situation. The complete damage of crop growth as well as sugar  recovery is regular incidence due to waterlogged and soil saturation from July to  December due to excess soil moisture.",
+    "file": "aicrp_sugarcane_kolhapur.pdf",
+    "title": "AICRP on Sugarcane - Regional Sugarcane and Jaggery Research Station, Kolhapur",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/17.%20AICRP%20on%20Sugarcane_20250916024750.pdf",
+    "crop": "sugarcane",
+    "page": 3,
+    "score": 0.8854290843009949
+   },
+   {
+    "id": 383,
+    "text": "situated at 16o70’ North latitude and 74o26’ East longitude at an  elevation of 574 m MSL. The average annual rainfall (1069 mm in 66 rainy days.). It  comes under sub-montane zone of Maharashtra. The sub mountain zone is on the  eastern slopes of SahyadrirangesThe annual average rainfall of the zone ranges between  700 to 2500 mm mostly received through southwest monsoon. Kolhapur region is one  of the most concentrated sugarcane growing area in Maharashtra state because of  favourable soil and agro ecological condition of the region. Kolhapur's climate is a  blend of coastal and inland elements common to Maharashtra .In Kolhapur the  temperature has a relatively narrow range between 10oC to 35oC.",
+    "file": "aicrp_sugarcane_kolhapur.pdf",
+    "title": "AICRP on Sugarcane - Regional Sugarcane and Jaggery Research Station, Kolhapur",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/17.%20AICRP%20on%20Sugarcane_20250916024750.pdf",
+    "crop": "sugarcane",
+    "page": 1,
+    "score": 0.8784854412078857
+   },
+   {
+    "id": 400,
+    "text": "production and  farmer’s economy in a region. Considering strategic location of Kolhapur following measures are suggested for  consideration please. • The both the technical vacant post of Sugarcane Breeder and Junior Agronomist in  AICRP on Sugarcane needs to filled as earliest. • The post Junior Research Assistant (Agril. Botany), Junior Research Assistant  (Agronomy) and Junior Research Assistant (Biochemistry) for juice analysis needs  to be created for project. • The research farm of RSJRS, Kolhapur is near Panchaganga river and requently  prone to flodd situation. The regular heavy floods in July month results to damage to  research trials and Sugarcane seed production. Hence, additional area of 0.0 to 15.0  ha.",
+    "file": "aicrp_sugarcane_kolhapur.pdf",
+    "title": "AICRP on Sugarcane - Regional Sugarcane and Jaggery Research Station, Kolhapur",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/17.%20AICRP%20on%20Sugarcane_20250916024750.pdf",
+    "crop": "sugarcane",
+    "page": 4,
+    "score": 0.8780390024185181
+   },
+   {
+    "id": 387,
+    "text": "research and multi-location testing of technology for  wider adoption. The AICRP on Sugarcane, RSJRS, Kolhapur was established during the year  1972. The research trials of Sugarcane Crop Improvement (Breeding) and Sugarcane  Crop Production (Agronomy) are undertaken in Suru season at research farm as per  technical programme approved in National Annual Group Meet held every year by  ICAR-Indian Institute of Sugarcane Research (IISR), Lucknow and ICAR- Sugarcane  Breeding Institute (SBI), Coimbatore. The Project provides forum to the researchers for  deliberations on new varieties and making recommendations on crop production at state  and national level. Research farm and Infrastructure facilities:  • Research farm total area= 28.67 ha. • Cultivable area= 24.02 ha.",
+    "file": "aicrp_sugarcane_kolhapur.pdf",
+    "title": "AICRP on Sugarcane - Regional Sugarcane and Jaggery Research Station, Kolhapur",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/17.%20AICRP%20on%20Sugarcane_20250916024750.pdf",
+    "crop": "sugarcane",
+    "page": 2,
+    "score": 0.8712606430053711
+   },
+   {
+    "id": 393,
+    "text": "production  3. Co 92005  (Co 671 x CoT  8201)  2009  Medium,  Late  129.0  (18.29)  --  ---  • Medium maturity  • Good for jaggery production  4. Phule 09057  (PC of Co  94012)  2019  Medium,  Late  130.05  (17.61)  --  ---  • Medium maturity  • Good for jaggery production  • Non-lodging  8. Major agricultural technological recommendations released by research scheme/  Centre    1. December month of planting and January month of harvesting in all varieties of  sugarcane found beneficial under Kolhapur  2. Pre emergence application of atrazine @ 2 a.i kg/ha and post emergence  application of 2,4-D @ 1 a.i. kg/ha at 8 - 10 weeks after planting is recommended  to control weeds in suru sugarcane. 3.",
+    "file": "aicrp_sugarcane_kolhapur.pdf",
+    "title": "AICRP on Sugarcane - Regional Sugarcane and Jaggery Research Station, Kolhapur",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/17.%20AICRP%20on%20Sugarcane_20250916024750.pdf",
+    "crop": "sugarcane",
+    "page": 3,
+    "score": 0.8704400658607483
+   },
+   {
+    "id": 399,
+    "text": "respective centres. 5) Year-IV & V: Evaluation of selected clones and identifying near commercial  climate smart F1s with resistance to waterlogging. (2 plant +1 ratoon)  6) Year-VI: Inclusion in the National Hybridization Garden (NHG) for developing  climate smart Sugarcane varieties. 10. Measures required for improvement. Strengthen of the research scheme/ centre. Considering the highest cane yield, recovery of Sugar and highest jaggery production in  Maharashtra, the Kolhapur region is very important for Sugarcane production and  farmer’s economy in a region. Considering strategic location of Kolhapur following measures are suggested for  consideration please.",
+    "file": "aicrp_sugarcane_kolhapur.pdf",
+    "title": "AICRP on Sugarcane - Regional Sugarcane and Jaggery Research Station, Kolhapur",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/17.%20AICRP%20on%20Sugarcane_20250916024750.pdf",
+    "crop": "sugarcane",
+    "page": 4,
+    "score": 0.8702555298805237
+   },
+   {
+    "id": 389,
+    "text": "1  0  1  Vacant    3. Junior Research Assistant  1  1  0  Mr.M.S.Walse  4. Agricultural Assistant  1  1  0  Smt.M.R.Pandav  Total  4  2  2    6. Significant/ innovative activities and programmes implemented by the Research  Scheme/Centre:    • The AICRP on Sugarcane, Kolhapur centre has so far released and recommended 3  sugarcane varieties viz., Co 7527 (1988), Co 8014 (1994) and Co 92005 (2009). The  sugarcane variety Co 92005 is excellent for jaggery yield and quality with non- lodging, erect and sparse flowering characteristics. Jaggery prepared from the variety  Co 92005 is fetching additional at the local market as compared with other released  varieties in the region. • At present,Co 92005 variety is used on large scale for jaggery production because of  its quality.",
+    "file": "aicrp_sugarcane_kolhapur.pdf",
+    "title": "AICRP on Sugarcane - Regional Sugarcane and Jaggery Research Station, Kolhapur",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/17.%20AICRP%20on%20Sugarcane_20250916024750.pdf",
+    "crop": "sugarcane",
+    "page": 2,
+    "score": 0.8644683361053467
+   }
+  ]
+ },
+ {
+  "question": "हल्दी की उन्नत किस्में कौन सी हैं?",
+  "lang": "hi-IN",
+  "answer": "हल्दी की उन्नत किस्में:\n* को-11983, बी.एस.आर-11986, कृष्णा, रोमा, सुरोमा, रंगा, रसमी, मेघा, सुगुणा, सुदर्शना, सुरंजना, डुग्गीराला, कोडुर, सुवर्णा, वर्ण, आई.आई.एस.आर. प्रभा, आई.आई.एस.आर. प्रतिभा, राजेंद्र सोनिया, टेक्कूरपेट, सुगन्धम, अमलपुरम, इरोड लोकल, सलेम और मोवट्टुपुझा [1]।\n* लकाडोंग, जो मेघालय में उगाई जाती है और इसमें 6.8-7.5% करक्यूमिन होता है [1, 2]।\n* अलेप्पी, जो केरल में उगाई जाती है [2]।\n* डुग्गीराला, जो आंध्र प्रदेश की 9 महीने वाली किस्म है [2, 3]।\n* महात्मा फुले कृषि विद्यापीठ ने 'फूल हरिद्रा (के.डी.टी-3)' नाम की नई किस्म 2022 में जारी की है [6]।\n* कृष्णा किस्म, जो सांगली जिले में विकसित हुई है [7]।",
+  "sources": [
+   {
+    "id": 231,
+    "text": "2    3. CULTIVARS AND VARIETIES  There are about 30 turmeric varieties grown in India. Among them varieties like  Alleppey and Madras (Perianadan) are of great commercial importance. Some of the  improved varieties and locally popular cultivars are: CO-11983, BSR-11986, Krishna, Roma,  Suroma, Ranga, Rasmi, Megha Turmeric-1, Suguna, Sudarshana, Suranjana, Duggirala,  Kodur, Suvarna, Varna, IISR Prabha, IISR Pratibha, Rajendra Sonia,Tekkurpet, Sugandham,  Amalapuram, Erode local, Salem, Moovattupuzha and Lakadong. The Lakadong variety of turmeric of the Jaintia Hills district of Meghalaya is  considered to be one of the world’s best varieties of turmeric with its curcumin content of  about 6.8 - 7.5 %.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 8,
+    "score": 0.8756561279296875
+   },
+   {
+    "id": 232,
+    "text": "Hills district of Meghalaya is  considered to be one of the world’s best varieties of turmeric with its curcumin content of  about 6.8 - 7.5 %. In the world, may be at some point of time this turmeric variety qualifies in  the Geographic Indicator List of India. Export Potential Varieties:  1. Lakadong  This variety is mainly cultivated at Meghalaya and it contains high  percentage of curcumin which is essential for medicinal uses. 2.Alleppey  Highly coloured variety. It is grown in Kerala and marketed as  Alleppey turmeric. 3.Duggirala  A long duration type (9 months), major variety of Andhra Pradesh. Rhizomes are bright yellow in colour. Grown mostly in Guntur district. 4.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 8,
+    "score": 0.8704544305801392
+   },
+   {
+    "id": 233,
+    "text": "A long duration type (9 months), major variety of Andhra Pradesh. Rhizomes are bright yellow in colour. Grown mostly in Guntur district. 4. PROPAGATION AND PLANTING  Healthy and disease free rhizomes with whole or split mother and finger rhizomes are  used for planting. Seed treatment with P. fluorescens 10 g/kg and T. viride as 4 g/ Kg. A seed  rate of 2,500 kg of rhizomes is required for planting one hectare of turmeric. Though transplanting in turmeric is not conventional, it is found profitable. A  transplanting technique in turmeric by using single bud sprouts (about 5 g) has been  standardized to produce good quality planting material with reduced cost.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 8,
+    "score": 0.8637957572937012
+   },
+   {
+    "id": 229,
+    "text": "is used to flavour and to colour foodstuffs. It is a  principal ingredient in curry powder. The aqueous extract has bio-pesticidal properties. The  tuberous rhizomes or underground stems of turmeric have been used from antiquity as  condiments, a dye and as an aromatic stimulant in several medicines. Turmeric is one of the important spices in India which produces nearly entire whole  world’s crop and consumes 80% of it. Turmeric occupies about 6% of the total area under  spices and condiments in India. In India, it is cultivated in the States of Andhra Pradesh, Telangana, Maharashtra,  Orissa, Tamil Nadu, Karnataka and Kerala. Maximum area under turmeric cultivation and  production is in Telangana state followed by Karnataka, Andhra Pradesh, Maharashtra and  Tamil Nadu. 2.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 7,
+    "score": 0.8575552105903625
+   },
+   {
+    "id": 315,
+    "text": "turmeric influences the price of the produce. Hence,  to obtain attractive product, turmeric powder is sprinkled during the last phase of  polishing. Cleaning, Grading, Packing and Storage  - Although Indian turmeric is considered to be the best in the world, about 90% of  the total produce is consumed internally and only a small portion of the production  is exported. - Turmeric of commerce is described in three ways:  - Fingers: These are the lateral branches or secondary ‘daughter’ rhizomes which  are detached from the central rhizome before curing. Fingers usually range in size  from 2.5 to 7.5 cm in length and may be over 1 cm in diameter. - Bulbs: These are central ‘mother’ rhizomes, which are ovate in shape and are of  shorter length and having larger diameter than the fingers.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 41,
+    "score": 0.855394721031189
+   },
+   {
+    "id": 324,
+    "text": "Mahatma Phule Krishi Vidyapeeth, Rahuri  Information about Crop wise Improved / Hybrid Varieties Developed by University    ‘gmbmdJu¶ {nH$m§Mo gwYmarV d g§H$arV dmU    Turmeric - Phule Haridra (KDT-3)      Release year  2022  Name of Institute /  University  ARS, Kasbe Digraj (MPKV, Rahuri)  Soil type  Light to medium black soils under  irrigated condition  Climate  Annual Crop  Sowing Time / Planting  period  Second week of May  Seed Rate (Per ha)  25.00 q/ha (Rhizomes)  Crop duration  250-260 days  Productivity  Green turmeric 406.72 q/ha, Dry turmeric 93.56 q/ha  Characters / features  Erect growth habit, Better tillering ratio (2.3), Deep orange  yellow core colour of fingers, Long and straight fingers, High  percentage of curcumin (5.35%), Better recovery (23.0%), Deep  yellow colour of turmeric powder with pleasant aroma",
+    "file": "mpkv_spices_varieties.pdf",
+    "title": "Improved varieties of spice crops",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/14-Masalavargiya_20230913125628.pdf",
+    "crop": "turmeric",
+    "page": 3,
+    "score": 0.8515766859054565
+   },
+   {
+    "id": 320,
+    "text": "Mahatma Phule Krishi Vidyapeeth, Rahuri  Information about Crop wise Improved / Hybrid Varieties Developed by University    ‘gmbmdJu¶ {nH$m§Mo gwYmarV d g§H$arV dmU    Turmeric – Krishna      Release year  1984  Name of Institute/  University  Turmeric  Research  Scheme,  Agril. Research Station, K. Digraj, Tah. Miraj,  Dist. Sangli. Soil type  Medium black, well drained, pH range : 6.5- 7.5  Climate  Hot & humid climate is ideal for growth,  medium rainfall and clear sunlight are  necessary for growth. Av.",
+    "file": "mpkv_spices_varieties.pdf",
+    "title": "Improved varieties of spice crops",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/14-Masalavargiya_20230913125628.pdf",
+    "crop": "turmeric",
+    "page": 1,
+    "score": 0.8506810665130615
+   },
+   {
+    "id": 228,
+    "text": "1    1. INTRODUCTION  Turmeric (Curcuma longa L.) is a rhizomatous herb, and grows up to a height of three  to five feet usually with 7 to 12 leaves, the leaf sheaths forms the pseudo stem which is  cultivated extensively in Asia, India, China, and other countries with a tropical climate. It has  been used for thousands of years as a remedy in the traditional Indian and folk medicine for  the cure of a large variety of illnesses like inflammation, infectious diseases and gastric,  hepatic and blood disorders. Turmeric is used to flavour and to colour foodstuffs. It is a  principal ingredient in curry powder. The aqueous extract has bio-pesticidal properties.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 7,
+    "score": 0.8506592512130737
+   }
+  ]
+ },
+ {
+  "question": "How do I control powdery mildew in grapes?",
+  "lang": "en-IN",
+  "answer": "* Control powdery mildew on bunches by spraying HP Grape Spray oil @ 5 to 7 ml / L [1].\n* Spray sulphur 80 WDG @ 1.0 to 1.5 g / L during the last 20 to 30 days of berry maturity [2].\n* Use strabularin fungicides such as azoxystrobin during the last 30 days of berry maturity [4].\n* Spray mineral oil formulation such as HP grape spray oil @ 5.0 to 10 ml/L [5].\n* Use azoxystrobin 23SC or kresoxim methyl 44.3 SC at flowering stage [6].\n\nConsult your local agriculture officer / KVK before use.",
+  "sources": [
+   {
+    "id": 152,
+    "text": "(HP  Grape Spray oil 5 – 7 ml / L) can be used as spray on  bunches for the control of powdery mildew without the risk  of objectionable residue. Before application of any formulation few days before  harvest it is advised to try the formulation first on few  plants and if any spot or similar abnormality is not seen  on berries the formulation can be used for spraying entire  vineyard.",
+    "file": "GAPTableGrapes.pdf",
+    "title": "Good Agricultural Practices for Production of Quality Table Grapes",
+    "publisher": "ICAR-NRC for Grapes, Pune",
+    "url": "https://nrcgrapes.icar.gov.in/sites/default/files/publications/GAPTableGrapes18Feb2013.pdf",
+    "crop": "grapes",
+    "page": 43,
+    "score": 0.8954903483390808
+   },
+   {
+    "id": 151,
+    "text": "days, and MRL as high as 2.0  ppm. Hence such fungicide can be used for control of  powdery mildew on bunches during last 30 days of berry  maturity. Spray of sulphur 80 WDG @ 1.0 to 1.5 g / L can be given  during last 20 to 30 days of berry maturity for the control  of powdery mildew. Such sprays can be given alongwith  good quality spreaders (Silwet or Sure-shot @ 0.05 to 0.1  ml / L) to avoid stains on berries. If less than 30 days are left application of mineral oils (HP  Grape Spray oil 5 – 7 ml / L) can be used as spray on  bunches for the control of powdery mildew without the risk  of objectionable residue.",
+    "file": "GAPTableGrapes.pdf",
+    "title": "Good Agricultural Practices for Production of Quality Table Grapes",
+    "publisher": "ICAR-NRC for Grapes, Pune",
+    "url": "https://nrcgrapes.icar.gov.in/sites/default/files/publications/GAPTableGrapes18Feb2013.pdf",
+    "crop": "grapes",
+    "page": 43,
+    "score": 0.8824942708015442
+   },
+   {
+    "id": 145,
+    "text": "36   Good Agricultural Practices for Production of Quality Table Grapes    Days after  pruning or growth  stage  Control measure for disease  in the morning hours, downy mildew may appear only on  bunches, and cause flower drop, or complete destruction of  bunch. Infection on leaves under such situation may be nil  or minimum. About two preventive sprays of systemic  fungicides for the control of downy mildew, at 5 days  interval are essentially needed during this period. Powdery mildew    Cloudy conditions will start the development of powdery  mildew during this period. As most growers are more  worried about downy mildew infection during this period,  light infections of powdery mildew could be un-noticed.",
+    "file": "GAPTableGrapes.pdf",
+    "title": "Good Agricultural Practices for Production of Quality Table Grapes",
+    "publisher": "ICAR-NRC for Grapes, Pune",
+    "url": "https://nrcgrapes.icar.gov.in/sites/default/files/publications/GAPTableGrapes18Feb2013.pdf",
+    "crop": "grapes",
+    "page": 42,
+    "score": 0.875076949596405
+   },
+   {
+    "id": 150,
+    "text": "Good Agricultural Practices for Production of Quality Table Grapes  37  Days after  pruning or growth  stage  Control measure for disease  stages. Use of flusilazole should be avoided after fruit set,  while fungicides such as penconazole, and tridemefon  should be selected up to first 80 days of pruning and  hexaconazole or myclobutanil should be preferred close to  veraison stage. 75 to 90 days  Powdery mildew on bunches or rachis  Spray of strabularin fungicides such as azoxystrobin,  which has PHI as low as 7 days, and MRL as high as 2.0  ppm. Hence such fungicide can be used for control of  powdery mildew on bunches during last 30 days of berry  maturity.",
+    "file": "GAPTableGrapes.pdf",
+    "title": "Good Agricultural Practices for Production of Quality Table Grapes",
+    "publisher": "ICAR-NRC for Grapes, Pune",
+    "url": "https://nrcgrapes.icar.gov.in/sites/default/files/publications/GAPTableGrapes18Feb2013.pdf",
+    "crop": "grapes",
+    "page": 43,
+    "score": 0.8746274709701538
+   },
+   {
+    "id": 134,
+    "text": "potassium bicarbonate 5.0 g/L. August to October Downy mildew, Anthracnose, Rust & Powdery Mildew. Rub off new sprouts emerging after rains. Prefer  spraying  non-systemic  fungicides  (Bordeaux  Mixture, copper hydroxide, COC etc.) for the control of  downy mildew, rust and anthracnose if disease is present  on old leaves. Spray Sulphur 80 WDG @ 2 g/L. plus Bordeaux mixture  0.5%, if both downy mildew and powdery mildew infection  is present  Use of copper fungicides mentioned above should control  rust disease also. In case if the disease is found to  increase, spray systemic fungicides such as, flusilazole  40EC @ 0.025 ml / L. Spray mineral oil formulation such as HP grape spray oil  @ 5.0 to 10 ml/L. Such spray oils are not compatible with  sulphur and copper fungicides, and captan.",
+    "file": "GAPTableGrapes.pdf",
+    "title": "Good Agricultural Practices for Production of Quality Table Grapes",
+    "publisher": "ICAR-NRC for Grapes, Pune",
+    "url": "https://nrcgrapes.icar.gov.in/sites/default/files/publications/GAPTableGrapes18Feb2013.pdf",
+    "crop": "grapes",
+    "page": 39,
+    "score": 0.8679783344268799
+   },
+   {
+    "id": 146,
+    "text": "period. As most growers are more  worried about downy mildew infection during this period,  light infections of powdery mildew could be un-noticed. The worldwide it is observed that if powdery mildew  infection is developed on bunches during flowering to fruit- set period, it becomes very difficult to control the disease  on bunches during later stages. Especially it could lead to  rachis infection of powdery mildew after veraison stage. Therefore at least one spray of systemic fungicide for the  control of powdery mildew is needed during flowering  stage. It is an ideal time for sprays of strabularin fungicides such  as azoxystrobin 23SC or kresoxim methyl 44.3 SC, as it  will provide protection against both downy mildew and  powdery mildew.",
+    "file": "GAPTableGrapes.pdf",
+    "title": "Good Agricultural Practices for Production of Quality Table Grapes",
+    "publisher": "ICAR-NRC for Grapes, Pune",
+    "url": "https://nrcgrapes.icar.gov.in/sites/default/files/publications/GAPTableGrapes18Feb2013.pdf",
+    "crop": "grapes",
+    "page": 42,
+    "score": 0.8670490384101868
+   },
+   {
+    "id": 109,
+    "text": "28   Good Agricultural Practices for Production of Quality Table Grapes      Downy mildew, powdery mildew  and  anthracnose  are  the  three  important diseases caused by fungal  pathogens and require warm and wet  /  humid  conditions  for  causing  infections. During monsoon, downy  mildew and anthracnose are the  major diseases noticed on the leaves,  while powdery mildew appears when  there is a long gap of rain with cloudy  conditions. Sometimes, rust infection  also occurs on old leaves especially  during September. From April to first week of June  usually  the climate  is  hot  with  temperature ranging from 35-40oC  and dry with relative humidity > 40%,  hence there is least possibility of  development of any disease.",
+    "file": "GAPTableGrapes.pdf",
+    "title": "Good Agricultural Practices for Production of Quality Table Grapes",
+    "publisher": "ICAR-NRC for Grapes, Pune",
+    "url": "https://nrcgrapes.icar.gov.in/sites/default/files/publications/GAPTableGrapes18Feb2013.pdf",
+    "crop": "grapes",
+    "page": 34,
+    "score": 0.8642834424972534
+   },
+   {
+    "id": 132,
+    "text": "Good Agricultural Practices for Production of Quality Table Grapes  33  Days after  pruning or growth  stage  Control measure for disease  0.25 to 0.30 ml / L or Potassium bi carbonate @ 10 g/L . Use spreaders (Silwet or Sure-shot ) @ 0.1 to 0.2 ml / L for  better efficiency of above fungicides  Do not spray Dinocap if tender shoots are present in  canopy. At the end of July especially after the onset of monsoon  downy mildew and powdery mildew can be present  together in vineyards. In such situations, mixture of  sulphur 80WDG @ 2.0 g / L and 0.5 % Bordeaux mixture  can be sprayed. The pH of the Bordeaux mixture should  be adjusted after the mixing of sulphur.",
+    "file": "GAPTableGrapes.pdf",
+    "title": "Good Agricultural Practices for Production of Quality Table Grapes",
+    "publisher": "ICAR-NRC for Grapes, Pune",
+    "url": "https://nrcgrapes.icar.gov.in/sites/default/files/publications/GAPTableGrapes18Feb2013.pdf",
+    "crop": "grapes",
+    "page": 39,
+    "score": 0.8641102910041809
+   }
+  ]
+ },
+ {
+  "question": "When should turmeric be planted?",
+  "lang": "en-IN",
+  "answer": "- Plant turmeric just after pre-monsoon showers [1].\n- In Maharashtra, planting time varies by location [1].\n- For the Phule Haridra (KDT-3) variety, sow in the second week of May [5].\n- Use disease-free seed rhizomes for planting [2].\n- Prepare raised beds of 30 cm height before planting [2].",
+  "sources": [
+   {
+    "id": 236,
+    "text": "rhizomes for seed purpose  - One month before planting, the seed rhizomes are cut into single buds with small  piece of rhizomes weighing 5-7 g. - Fill the pro-trays (98 well) with nursery medium containing partially decomposed  coir pith and vermi compost (75:25), enriched with PGPR/Trichoderma 10g/kg of  mixture  - Plant the turmeric bud sprouts in pro-trays  - Maintain the pro-trays under shade net house  - Adopt need based irrigation with rose can or by using suitable sprinklers  - Seedlings will be ready within 30-35 days for transplanting  The turmeric seeds are often kept beneath moist straw and left for sprouting before  sowing. The planting time in India, is typically just after the pre-monsoon showers. This  period varies from state to state.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 9,
+    "score": 0.8955795764923096
+   },
+   {
+    "id": 282,
+    "text": "23    Management    Different management practices should be followed during the crop stages of  turmeric. - Use of resistant varieties for rhizome rot. - Crop rotation with maize, cotton, soybean. - Planting of disease-free seed rhizomes. - Use raised beds of 30 cm height. - Flooding treatment for 30 days, soil solarisation during hottest months for 60  days  - Treat the rhizomes with hot water at 51° C for 10 minutes. - Rhizomes treatment can be done by keeping them under clear polythene sheet  under direct sunlight for raising the temperature 48o C for 30 minutes. - Use bio-fumigation using cabbage and mustard plant refuses. - Use raised beds of 15-30 cm height, 1 m width and of convenient length may be  prepared giving at least 50 cm spacing between beds.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 29,
+    "score": 0.8940998315811157
+   },
+   {
+    "id": 233,
+    "text": "A long duration type (9 months), major variety of Andhra Pradesh. Rhizomes are bright yellow in colour. Grown mostly in Guntur district. 4. PROPAGATION AND PLANTING  Healthy and disease free rhizomes with whole or split mother and finger rhizomes are  used for planting. Seed treatment with P. fluorescens 10 g/kg and T. viride as 4 g/ Kg. A seed  rate of 2,500 kg of rhizomes is required for planting one hectare of turmeric. Though transplanting in turmeric is not conventional, it is found profitable. A  transplanting technique in turmeric by using single bud sprouts (about 5 g) has been  standardized to produce good quality planting material with reduced cost.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 8,
+    "score": 0.8901360034942627
+   },
+   {
+    "id": 230,
+    "text": "Maximum area under turmeric cultivation and  production is in Telangana state followed by Karnataka, Andhra Pradesh, Maharashtra and  Tamil Nadu. 2. CLIMATIC AND SOIL REQUIREMENTS  Turmeric can be grown in diverse tropical conditions from sea level to 1500 m above  sea level, at a temperature range of 20-35˚C with an annual rainfall of 1500 mm or more,  under rainfed or irrigated conditions. Though it can be grown on different types of soils, it  thrives best in well-drained sandy or clay loam soils with a pH range of 4.5-7.5 with good  organic status. The crop cannot stand water logging or alkalinity.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 7,
+    "score": 0.8867456912994385
+   },
+   {
+    "id": 324,
+    "text": "Mahatma Phule Krishi Vidyapeeth, Rahuri  Information about Crop wise Improved / Hybrid Varieties Developed by University    ‘gmbmdJu¶ {nH$m§Mo gwYmarV d g§H$arV dmU    Turmeric - Phule Haridra (KDT-3)      Release year  2022  Name of Institute /  University  ARS, Kasbe Digraj (MPKV, Rahuri)  Soil type  Light to medium black soils under  irrigated condition  Climate  Annual Crop  Sowing Time / Planting  period  Second week of May  Seed Rate (Per ha)  25.00 q/ha (Rhizomes)  Crop duration  250-260 days  Productivity  Green turmeric 406.72 q/ha, Dry turmeric 93.56 q/ha  Characters / features  Erect growth habit, Better tillering ratio (2.3), Deep orange  yellow core colour of fingers, Long and straight fingers, High  percentage of curcumin (5.35%), Better recovery (23.0%), Deep  yellow colour of turmeric powder with pleasant aroma",
+    "file": "mpkv_spices_varieties.pdf",
+    "title": "Improved varieties of spice crops",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/14-Masalavargiya_20230913125628.pdf",
+    "crop": "turmeric",
+    "page": 3,
+    "score": 0.8772885799407959
+   },
+   {
+    "id": 311,
+    "text": "34    Post Harvest Processing  - The harvested turmeric rhizomes before entering into the market is converted into  a stable commodity through a number of post harvest processing operations like  boiling, drying and polishing. - Boiling of turmeric is taken up within 3 or 4 days after harvest. - The fingers and bulbs (or mother rhizomes) are separated and are cured  separately, since the latter take a little longer to cook. - The dry recovery of the different turmeric varieties vary widely ranging from 19  to 23%. Drying  - The cooked fingers are dried in the sun by spreading in 5-7 cm thick layers on the  drying floor. - A thin layer is not desirable, as the colour of dried product may be adversely  affected. - It may take 10-15 days for the rhizome to become completely dry.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 40,
+    "score": 0.8756580352783203
+   },
+   {
+    "id": 301,
+    "text": "and nutrients enrichment of crops. - An extract of asafoetida, turmeric and water is effective against several plant  pathogens including nematodes. - Application of neem (Azaradirachta indica) seed cake 100 Kg/acre before  planting  - Pochonia chlamydosporia, a nematode biocontrol agent can be incorporated in  turmeric beds (20 g/bed at 106 cfu/g) at the time of sowing. 11. WEEDS MANAGEMENT  Management of Turmeric Weeds  - Deep summer ploughing and solarization during summer reduces weed  infestation, soil borne diseases, nematodes, etc. - Use raised beds (30 cm with 1 meter width). - At the time of field preparation, adopt stale seed bed technique to minimize weeds  menace in field. - Hand hoeing and weeding are necessary at 60, 90, 120 and 150 days after planting  in light soils.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 37,
+    "score": 0.8749332427978516
+   },
+   {
+    "id": 260,
+    "text": "12    8. Integrated Pest Management (For Major Pests)  8.1 Turmeric Shoot Borer: Conogethes punctiferalis Guenée (Lepidoptera:  Crambidae)  Life Cycle:  - Egg- Eggs are pink oval flat lay eggs singly or in groups of two or three on  leaves and other soft parts of the plants. The incubation period is about 7 days. - Larvae-The larvae are full fed in 14-21 days after passing through 4-5 instars. Throughout the larval period, it remains in concealment under a cover of silk and  frass or excreta. - Pupa- Pupation takes place inside the seed or sometimes in the frass that collects  after feeding. The pupal period is about 7 days.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 18,
+    "score": 0.8732961416244507
+   }
+  ]
+ },
+ {
+  "question": "How much money does PM-KISAN give?",
+  "lang": "en-IN",
+  "answer": "* PM-KISAN gives Rs.6000/- per year [7].\n* This money is given in three installments [7].\n* Each installment is Rs.2000/- [7].\n* The installments are given every 4 months [7].\n* The payment months are April-July, August-November, and December-March [7].",
+  "sources": [
+   {
+    "id": 360,
+    "text": "8    9. PM-Kisan Portal for implementation of the scheme (Beneficiary Details  uploading by State)    9.1  Beneficiaries under the scheme are to be identified by the respective State and  Union Territory. The details of farmers are being maintained by the States / UTs either  in electronic form or in manual register. To make integrated platform available in the  country to assist in benefit transfer, a platform named PM-Kisan Portal available at  URL (http://pmkisan.gov.in) has been be launched for uploading the farmers’ details  at a single web-portal in a uniform structure. 9.2  The PM-Kisan Portal has been created with the following objectives -  i)  To provide verified and single source of truth on farmers’ details at the portal.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 8,
+    "score": 0.861668050289154
+   },
+   {
+    "id": 362,
+    "text": "integration. iv)  Location wise availability of benefited farmers’ list. v)  Ease of monitoring across the country on fund transaction details. 9.3  PM-Kisan Portal :  The following farmer attributes need to be entered in the Portal:  Farmer Attributes: (Essential):   State, District, Sub-District/Block, Village, Farmer Name, Type of Identity – Aadhaar Number and in case Aadhaar not available, Aadhaar enrollment number  with any other ID proof like Voter ID etc, Gender, Category, IFSC Code, Bank  Account Number. Farmer Attributes (Optional):  Father name, Address, Mobile Number, Date of Birth/Age, Farm-Size in Hectare,  Survey Number, Khasra Number     Optional attributes such as Mobile number can be utilized for SMS alerts.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 8,
+    "score": 0.8584879636764526
+   },
+   {
+    "id": 367,
+    "text": "10                  2. Farmers list as available on the portal shall be available at Block / Tehsil /  Taluka level official’s login. 3. Search facility will also be available to get details on Farmers by Name,  Aadhaar Number or Mobile Number in case PM-KISAN Portal data is being  used. Facility to add new farmers’ details shall be available, if details are not  found in the list. 4. The verified list shall be e-signed by the District level or block / tehsil / taluka  level officials as the case may be. The exclusion categories specified in  scheme guidelines also need to be taken care before e-signing the verified  farmers list. 5. The States Nodal Officer shall submit a district wise e-Signed list of farmers to  the Program Division of DAC&FW through PM-Kisan Portal.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 10,
+    "score": 0.8571619987487793
+   },
+   {
+    "id": 331,
+    "text": "3    employees of the Local Bodies (Excluding Multi Tasking Staff / Class IV / Group  D employees)    iv) All superannuated / retired pensioners whose monthly pension is Rs.10,000/- or  more (Excluding Multi Tasking Staff / Class IV / Group D employees)    v) All Persons who paid Income Tax in last assessment year. vi) Professionals like Doctors, Engineers, Lawyers, Chartered Accountants, and  Architects registered with Professional bodies and carrying out profession by  undertaking practices. (c) In case of new beneficiaries being uploaded on the PM-KISAN Portal, all land  holding farmers’ families who are Non-resident Indians (NRIs) in terms of the provisions  of the Income Tax Act, 1961 shall be excluded from any benefit under the Scheme.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 3,
+    "score": 0.8550332188606262
+   },
+   {
+    "id": 364,
+    "text": "9        9.4  There are 3 ways through which a State / UT can onboard on the PM Kisan  Portal:  (a)  If a State / UT has village / district wise list of farmers, they may upload  the same in a pre-defined format and with the help of local NIC State Unit. (b)  Some existing data of farmers is already available on the PM-Kisan Portal  which will be visible on selection of States / Districts / Village. States / UTs  which do not have their own list may use this village-wise list of farmers as  provided on the portal and edit the same to finalize the farmers’ list. For  this the correction window shall be available at PM-Kisan portal for  authorized users of District and Block officials.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 9,
+    "score": 0.8548527956008911
+   },
+   {
+    "id": 345,
+    "text": "a piece of land, may be accepted. Such certification of  village Chairman/Chief shall be authenticated by the concerned sub-divisional officers. All the exclusions under the Operational Guidelines will be applicable.”    5.5.2 For identification of bona fide beneficiary under PM-Kisan Scheme in Nagaland,  the following procedure was approved by the Committee:  1) In case of community owned cultivable land in the state of Nagaland which is  under permanent cultivation, for identification of beneficiaries under PM-KISAN,  the certificate issued by the village council/authority/village chieftan regarding  land holding, duly verified by the administrative head of the circle/sub-division  and countersigned by the Deputy Commissioner of the District shall suffice  subject to the exclusions under the operational guidelines.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 5,
+    "score": 0.8544854521751404
+   },
+   {
+    "id": 368,
+    "text": "list. 5. The States Nodal Officer shall submit a district wise e-Signed list of farmers to  the Program Division of DAC&FW through PM-Kisan Portal. 10  Modalities for transfer of benefit    10.1 The financial benefit of Rs.6000/- per year is to be released to the eligible  farmers in three installments of Rs.2000/- each every 4-month / trimester, i.e. April-July,  August-November and December-March. 10.2 The Scheme is being implemented through an Aadhaar linked electronic data  base containing details of all members of the families of the farmers whose names  appear in the land records.",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 10,
+    "score": 0.8534413576126099
+   },
+   {
+    "id": 326,
+    "text": "1            PRADHAN MANTRI KISAN SAMMAN NIDHI SCHEME      (PM-KISAN SCHEME)            OPERATIONAL GUIDELINES    (REVISED AS ON 29.03.2020)              MINISTRY OF AGRICULTURE & FARMERS’ WELFARE  DEPARTMENT OF AGRICULTURE, COOPERATION & FARMERS’ WELFARE  (DAC&FW)",
+    "file": "pmkisan_guidelines.pdf",
+    "title": "PM-KISAN Operational Guidelines",
+    "publisher": "Ministry of Agriculture & FW",
+    "url": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines(English).pdf",
+    "crop": "scheme",
+    "page": 1,
+    "score": 0.8504741191864014
+   }
+  ]
+ },
+ {
+  "question": "How can I prevent rhizome rot in turmeric?",
+  "lang": "en-IN",
+  "answer": "* Use resistant varieties for rhizome rot [1].\n* Practice crop rotation with maize, cotton, or soybean [1].\n* Plant disease-free seed rhizomes [1].\n* Use raised beds 30 cm high for better drainage [1].\n* Treat seed rhizomes with hot water at 51°C for 10 minutes [1].\n* Avoid over-irrigation and water logging in the field [5, 7].\n* Keep fields clean and remove diseased plants [3, 7].\n* Store seed rhizomes in ventilated rooms with leaves [2].\n* Do not use infected rhizomes for planting [7].",
+  "sources": [
+   {
+    "id": 282,
+    "text": "23    Management    Different management practices should be followed during the crop stages of  turmeric. - Use of resistant varieties for rhizome rot. - Crop rotation with maize, cotton, soybean. - Planting of disease-free seed rhizomes. - Use raised beds of 30 cm height. - Flooding treatment for 30 days, soil solarisation during hottest months for 60  days  - Treat the rhizomes with hot water at 51° C for 10 minutes. - Rhizomes treatment can be done by keeping them under clear polythene sheet  under direct sunlight for raising the temperature 48o C for 30 minutes. - Use bio-fumigation using cabbage and mustard plant refuses. - Use raised beds of 15-30 cm height, 1 m width and of convenient length may be  prepared giving at least 50 cm spacing between beds.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 29,
+    "score": 0.9008213877677917
+   },
+   {
+    "id": 309,
+    "text": "be effectively prevented from getting  access to the premises where turmeric is stored. - Stored turmeric should be periodically exposed to the Sun. - If care is taken in all stages of cultivation, harvesting, post harvest handling,  processing, packing, storage and transportation by following sound methods and  practices we will be able to prevent contamination and deterioration of quality in  any farm produce including turmeric and ensure consumer satisfaction. C. Preservation of Seed Rhizomes  - Rhizomes for seed purpose are generally stored by heaping in well ventilated  rooms and covered with turmeric leaves. - The seed rhizomes can also be stored in pits with saw dust, sand along with leaves  of Stychnos nux-vomica (Kanjiram).",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 39,
+    "score": 0.8863331079483032
+   },
+   {
+    "id": 297,
+    "text": "- It spreads from vulnerable plants  - The disease is favoured by 35 °C soil temperature, 15-20 percent soil moisture  andalluvial or sandy soils. Management  - Field sanitation should be practiced. - Follow crop rotation with cereal and legume crops reduce the inoculum build up. Dry rot of turmeric",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 35,
+    "score": 0.8843961954116821
+   },
+   {
+    "id": 233,
+    "text": "A long duration type (9 months), major variety of Andhra Pradesh. Rhizomes are bright yellow in colour. Grown mostly in Guntur district. 4. PROPAGATION AND PLANTING  Healthy and disease free rhizomes with whole or split mother and finger rhizomes are  used for planting. Seed treatment with P. fluorescens 10 g/kg and T. viride as 4 g/ Kg. A seed  rate of 2,500 kg of rhizomes is required for planting one hectare of turmeric. Though transplanting in turmeric is not conventional, it is found profitable. A  transplanting technique in turmeric by using single bud sprouts (about 5 g) has been  standardized to produce good quality planting material with reduced cost.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 8,
+    "score": 0.8819177150726318
+   },
+   {
+    "id": 295,
+    "text": "Ralstonia solanacearum. - Rhizome treatment with hot water 47˚ C for 3 minutes. - Use bio-fumigation using cabbage and mustard plant refuses. - Avoid over irrigation, and flood irrigation in disease affected areas. - It is sensitive to high pH (alkaline soils). 10.5 Dry Rot (Rhizoctonia bataticola)  Symptoms  - The disease causes root rot and rhizome rot resulting in typical dry rot of  rhizomes from October onwards.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 34,
+    "score": 0.8809168338775635
+   },
+   {
+    "id": 236,
+    "text": "rhizomes for seed purpose  - One month before planting, the seed rhizomes are cut into single buds with small  piece of rhizomes weighing 5-7 g. - Fill the pro-trays (98 well) with nursery medium containing partially decomposed  coir pith and vermi compost (75:25), enriched with PGPR/Trichoderma 10g/kg of  mixture  - Plant the turmeric bud sprouts in pro-trays  - Maintain the pro-trays under shade net house  - Adopt need based irrigation with rose can or by using suitable sprinklers  - Seedlings will be ready within 30-35 days for transplanting  The turmeric seeds are often kept beneath moist straw and left for sprouting before  sowing. The planting time in India, is typically just after the pre-monsoon showers. This  period varies from state to state.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 9,
+    "score": 0.8777578473091125
+   },
+   {
+    "id": 281,
+    "text": "color changes into different shades of brown  Disease Development  - The disease is soil-borne. The fungus multiplies with buildup of soil moisture. - The fungus can survive in two ways: (a) in diseased rhizomes kept for sowing  and (b) through resting structures like chlamydospores and oospores that reach  the soil from infected rhizomes. - Younger sprouts are the most susceptible to the pathogen. Nematode infestation  aggravates rhizome rot disease. - Temperature above 30° C and high soil moisture are the important predisposing  factors favouring the disease. - Water logging in the field due to poor drainage increases the intensity of the  disease. Source: https://www.invasive.org/browse/detail.cfm?imgnum=5542832  Rhizome rot symptoms on turmeric leaves and  rhizome  Disease cycle",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 28,
+    "score": 0.8748629093170166
+   },
+   {
+    "id": 298,
+    "text": "30    Important Nematode infection in Turmeric:  10.6 Root knot (Meloidogynae sp.), Burrowing (Radopholus Similis) and Lesion  Nematode (Pratylenchus spp.)  Damage symptoms  - Root-knot nematode feed on tender rhizomes, roots and base of pseudostem  causing stunting, chlorosis, poor tillering and necrosis of leaves are the common  aerial symptoms. - Characteristic root galls and lesions that lead to rotting are generally seen in  roots. The infested rhizomes have brown, water soaked areas in the outer tissues. - Nematode infestation aggravates rhizome rot disease. Source:https://kvk.icar.gov.in/API/Content/PPupload/k0218_69.pdf  - Nematodes survive in soil and infected rhizomes as primary inoculums.",
+    "file": "ipm_pop_turmeric.pdf",
+    "title": "IPM Package of Practices for Turmeric",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (GoI)",
+    "url": "https://ppqs.gov.in/sites/default/files/ipm_pop-turmeric.pdf",
+    "crop": "turmeric",
+    "page": 36,
+    "score": 0.8744691014289856
+   }
+  ]
+ },
+ {
+  "question": "In which month should sugarcane be planted around Kolhapur?",
+  "lang": "en-IN",
+  "answer": "- Plant sugarcane in December around Kolhapur [2].\n- Harvest it in January [2].\n- This timing works for all sugarcane varieties in the area [2].",
+  "sources": [
+   {
+    "id": 395,
+    "text": "40 % at 6th week,  10% at 10th week and 40 % at 14th week at the time of earthing up + two splits  equal of 115 kg P2O5 and 115 K2O per hacter ie. Half at planting and half at  earthing-up are recommended for obtaining maximum cane, CCS yield under suru  condition for Co 8014 and Co 86032 varieties. 9. Future roadmap of research    The mandated research programme of Crop Improvement and Crop Production  discipline is being conducted every year. In Kolhapur and Sangli districts, more than 30  to 40 % Sugarcane cultivated alongside river is heavily damaged every rainy season due  to frequent flood situation. The complete damage of crop growth as well as sugar  recovery is regular incidence due to waterlogged and soil saturation from July to  December due to excess soil moisture.",
+    "file": "aicrp_sugarcane_kolhapur.pdf",
+    "title": "AICRP on Sugarcane - Regional Sugarcane and Jaggery Research Station, Kolhapur",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/17.%20AICRP%20on%20Sugarcane_20250916024750.pdf",
+    "crop": "sugarcane",
+    "page": 3,
+    "score": 0.8886587619781494
+   },
+   {
+    "id": 393,
+    "text": "production  3. Co 92005  (Co 671 x CoT  8201)  2009  Medium,  Late  129.0  (18.29)  --  ---  • Medium maturity  • Good for jaggery production  4. Phule 09057  (PC of Co  94012)  2019  Medium,  Late  130.05  (17.61)  --  ---  • Medium maturity  • Good for jaggery production  • Non-lodging  8. Major agricultural technological recommendations released by research scheme/  Centre    1. December month of planting and January month of harvesting in all varieties of  sugarcane found beneficial under Kolhapur  2. Pre emergence application of atrazine @ 2 a.i kg/ha and post emergence  application of 2,4-D @ 1 a.i. kg/ha at 8 - 10 weeks after planting is recommended  to control weeds in suru sugarcane. 3.",
+    "file": "aicrp_sugarcane_kolhapur.pdf",
+    "title": "AICRP on Sugarcane - Regional Sugarcane and Jaggery Research Station, Kolhapur",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/17.%20AICRP%20on%20Sugarcane_20250916024750.pdf",
+    "crop": "sugarcane",
+    "page": 3,
+    "score": 0.8840193748474121
+   },
+   {
+    "id": 385,
+    "text": "November to February. In Maharashtra Sugarcane is majorly cultivated in Western and Central regions. The major districts under Sugarcane cultivation are Kolhapur, Satara, Sangli, Pune,  Solapur, Ahmednagar, Nashik and Aurangabad. The highest recovery of Sugarcane is  obtained in Kolhapur district due favourable weather situation for Sugarcane growth. The Sugarcane mostly in western area is cultivated in Suru and Preseason season. In  other area adsali or midseason cultivation in followed mostly in Solapur, Ahmednagar  and Pune districts. All India Coordinated Research Project on Sugarcane is serving the Nation by  coordinating research work on sugarcane since 1970 through a network of sugarcane  research stations of ICAR, State Agricultural Universities, State Govt.",
+    "file": "aicrp_sugarcane_kolhapur.pdf",
+    "title": "AICRP on Sugarcane - Regional Sugarcane and Jaggery Research Station, Kolhapur",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/17.%20AICRP%20on%20Sugarcane_20250916024750.pdf",
+    "crop": "sugarcane",
+    "page": 2,
+    "score": 0.8788150548934937
+   },
+   {
+    "id": 400,
+    "text": "production and  farmer’s economy in a region. Considering strategic location of Kolhapur following measures are suggested for  consideration please. • The both the technical vacant post of Sugarcane Breeder and Junior Agronomist in  AICRP on Sugarcane needs to filled as earliest. • The post Junior Research Assistant (Agril. Botany), Junior Research Assistant  (Agronomy) and Junior Research Assistant (Biochemistry) for juice analysis needs  to be created for project. • The research farm of RSJRS, Kolhapur is near Panchaganga river and requently  prone to flodd situation. The regular heavy floods in July month results to damage to  research trials and Sugarcane seed production. Hence, additional area of 0.0 to 15.0  ha.",
+    "file": "aicrp_sugarcane_kolhapur.pdf",
+    "title": "AICRP on Sugarcane - Regional Sugarcane and Jaggery Research Station, Kolhapur",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/17.%20AICRP%20on%20Sugarcane_20250916024750.pdf",
+    "crop": "sugarcane",
+    "page": 4,
+    "score": 0.8766116499900818
+   },
+   {
+    "id": 383,
+    "text": "situated at 16o70’ North latitude and 74o26’ East longitude at an  elevation of 574 m MSL. The average annual rainfall (1069 mm in 66 rainy days.). It  comes under sub-montane zone of Maharashtra. The sub mountain zone is on the  eastern slopes of SahyadrirangesThe annual average rainfall of the zone ranges between  700 to 2500 mm mostly received through southwest monsoon. Kolhapur region is one  of the most concentrated sugarcane growing area in Maharashtra state because of  favourable soil and agro ecological condition of the region. Kolhapur's climate is a  blend of coastal and inland elements common to Maharashtra .In Kolhapur the  temperature has a relatively narrow range between 10oC to 35oC.",
+    "file": "aicrp_sugarcane_kolhapur.pdf",
+    "title": "AICRP on Sugarcane - Regional Sugarcane and Jaggery Research Station, Kolhapur",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/17.%20AICRP%20on%20Sugarcane_20250916024750.pdf",
+    "crop": "sugarcane",
+    "page": 1,
+    "score": 0.8720114231109619
+   },
+   {
+    "id": 389,
+    "text": "1  0  1  Vacant    3. Junior Research Assistant  1  1  0  Mr.M.S.Walse  4. Agricultural Assistant  1  1  0  Smt.M.R.Pandav  Total  4  2  2    6. Significant/ innovative activities and programmes implemented by the Research  Scheme/Centre:    • The AICRP on Sugarcane, Kolhapur centre has so far released and recommended 3  sugarcane varieties viz., Co 7527 (1988), Co 8014 (1994) and Co 92005 (2009). The  sugarcane variety Co 92005 is excellent for jaggery yield and quality with non- lodging, erect and sparse flowering characteristics. Jaggery prepared from the variety  Co 92005 is fetching additional at the local market as compared with other released  varieties in the region. • At present,Co 92005 variety is used on large scale for jaggery production because of  its quality.",
+    "file": "aicrp_sugarcane_kolhapur.pdf",
+    "title": "AICRP on Sugarcane - Regional Sugarcane and Jaggery Research Station, Kolhapur",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/17.%20AICRP%20on%20Sugarcane_20250916024750.pdf",
+    "crop": "sugarcane",
+    "page": 2,
+    "score": 0.8718205094337463
+   },
+   {
+    "id": 399,
+    "text": "respective centres. 5) Year-IV & V: Evaluation of selected clones and identifying near commercial  climate smart F1s with resistance to waterlogging. (2 plant +1 ratoon)  6) Year-VI: Inclusion in the National Hybridization Garden (NHG) for developing  climate smart Sugarcane varieties. 10. Measures required for improvement. Strengthen of the research scheme/ centre. Considering the highest cane yield, recovery of Sugar and highest jaggery production in  Maharashtra, the Kolhapur region is very important for Sugarcane production and  farmer’s economy in a region. Considering strategic location of Kolhapur following measures are suggested for  consideration please.",
+    "file": "aicrp_sugarcane_kolhapur.pdf",
+    "title": "AICRP on Sugarcane - Regional Sugarcane and Jaggery Research Station, Kolhapur",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/17.%20AICRP%20on%20Sugarcane_20250916024750.pdf",
+    "crop": "sugarcane",
+    "page": 4,
+    "score": 0.8678810596466064
+   },
+   {
+    "id": 380,
+    "text": "MAHATMA PHULE KRISHI VIDYAPEETH, RAHURI    All India Coordinated Research Project on Sugarcane    1. Name and complete address of Research Scheme/ Centre:    All India Coordinated Research Project (AICRP) on Sugarcane  c/o Agronomist & In-Charge  Regional Sugarcane and Jaggery Research Station,  Kolhapur- 416 005 (Maharashtra)      2. Year of Establishment:    Estd: 1972-73  (Sanction letter: ICAR Letter no. PC (SM)/82/344/2004-05, Date: 28/09/2004)      3. Major achievement/ mandate for establishment of research scheme/ centre:    Mandates of AICRP on Sugarcane:  • Evaluation of locally adapted sugarcane varieties with improved yield and quality as  well as resistance to biotic and abiotic stresses. • Development of package of practices for higher sugarcane production.",
+    "file": "aicrp_sugarcane_kolhapur.pdf",
+    "title": "AICRP on Sugarcane - Regional Sugarcane and Jaggery Research Station, Kolhapur",
+    "publisher": "MPKV Rahuri",
+    "url": "https://mpkv.ac.in/Uploads/Research/17.%20AICRP%20on%20Sugarcane_20250916024750.pdf",
+    "crop": "sugarcane",
+    "page": 1,
+    "score": 0.8675215244293213
+   }
+  ]
+ },
+ {
   "question": "What are the improved turmeric varieties?",
   "lang": "en-IN",
-  "answer": "Here are the improved turmeric varieties:\n\n*   **Krishna:** Released in 1984 by MPKV, Rahuri. It grows well in medium black soil in Sangli [3].\n*   **Phule Haridra (KDT-3):** Released in 2022. It gives high dry turmeric yield of 93.56 q/ha and has 5.35% curcumin [4].\n*   **Phule Swarupa:** Released in 2004. It also grows well in medium black soil in Sangli [5].\n*   **Other varieties:** CO-11983, BSR-11986, Roma, Suroma, Ranga, Rasmi, Megha Turmeric-1, Suguna, Sudarshana, Suranjana, Duggirala, Kodur, Suvarna, Varna, IISR Prabha, IISR Pratibha, Rajendra Sonia, Tekkurpet, Sugandham, Amalapuram, Erode local, Salem, and Moovattupuzha [1, 2].\n*   **Lakadong:** A top variety from Meghalaya with 6.8 to 7.5% curcumin [1, 2].",
+  "answer": "Here are the improved turmeric varieties for your area:\n\n*   Krishna: Released in 1984. Grown in Sangli [3].\n*   Phule Haridra (KDT-3): Released in 2022. High curcumin at 5.35% [4].\n*   Phule Swarupa: Released in 2004. Grown in Sangli [5].\n\nOther popular varieties include Lakadong, Alleppey, and Duggirala [1, 2].\n\nCall Kisan Call Centre 1800-180-1551 or your local KVK for more details.",
   "sources": [
    {
     "id": 231,
