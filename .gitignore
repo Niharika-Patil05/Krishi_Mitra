@@ -1,0 +1,15 @@
+# Secrets - never commit
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local scratch
+test.wav
+.DS_Store
+
+# NOTE: data/index/ is intentionally NOT ignored (built offline, committed).
