@@ -1,5 +1,8 @@
 [server]
 headless = true
+# transformers has hundreds of submodules; the default watcher imports them all and spams
+# harmless "No module named torchvision" tracebacks. We do not need hot-reload of libraries.
+fileWatcherType = "none"
 maxUploadSize = 5
 
 [browser]
