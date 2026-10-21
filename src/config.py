@@ -30,7 +30,7 @@ MIN_PAGE_CHARS = 50   # skip covers / blank pages
 TOP_K = 5
 SCORE_THRESHOLD = 0.75  # starting value; tuned in Milestone 6 using eval
 
-# --- Languages (UI label -> Sarvam code). To be verified against docs in M3/M4.
+# --- Languages (UI label -> Sarvam code; codes verified against docs.sarvam.ai)
 LANGUAGES = {"मराठी": "mr-IN", "हिंदी": "hi-IN", "English": "en-IN"}
 DEFAULT_LANGUAGE = "मराठी"
 
@@ -40,6 +40,13 @@ GROQ_LLM_MODEL = "llama-3.3-70b-versatile"
 LLM_MAX_TOKENS = 1024                     # reasoning is off, so this is all answer
 LLM_TIMEOUT_S = 20
 LLM_TEMPERATURE = 0.2
+
+# --- Speech (Sarvam; IDs verified against docs.sarvam.ai) --------------------
+STT_MODEL = "saaras:v4"       # recommended model; default mode = plain transcription
+TTS_MODEL = "bulbul:v3"       # stable; v4-flash is newer but speakers differ
+TTS_SPEAKER = "shubh"         # documented default voice for v3
+TTS_MAX_CHARS = 2000          # API limit is 2500 for v3; keep a safety margin
+SPEECH_TIMEOUT_S = 30
 
 KCC_NUMBER = "1800-180-1551"
 
